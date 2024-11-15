@@ -23,7 +23,13 @@ total_row.insert(0, df_final.columns[0], 'Total')
 df_final = pd.concat([df_final, total_row], ignore_index=True)
 
 
-with open('data_output\dataset2_emplois_draft.csv', 'w') as f:
-    df_final.to_csv(f, index=False)
+
 print(df_final.tail(10))
 
+
+
+
+
+
+# with open('data_output\dataset2_emplois_draft.csv', 'w') as f:
+#     df_final.to_csv(f, index=False)
