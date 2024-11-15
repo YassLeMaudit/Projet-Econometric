@@ -24,10 +24,10 @@ total_row.insert(0, df_final.columns[0], 'Total')
 df_final = pd.concat([df_final, total_row], ignore_index=True)
 
 # Rename the columns with the years to remove decimals
-rename_dict = {f'{year},00': str(year) for year in range(2008, 2022)}
+rename_dict = {f'{year},00': 'y_' +str(year) for year in range(2008, 2022)}
 df_final.rename(columns=rename_dict, inplace=True)
 
 
 # Save the dataset to a csv file to make tests
-# with open('data_output\dataset2_preanalysis.csv', 'w', newline='', encoding='UTF-8') as f:
-#     df_final.to_csv(f, index=False)
+with open('data_output\dataset2_preanalysis.csv', 'w', newline='', encoding='UTF-8') as f:
+    df_final.to_csv(f, index=False)
