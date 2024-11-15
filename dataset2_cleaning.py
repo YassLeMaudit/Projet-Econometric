@@ -11,6 +11,7 @@ def remove_space(dataframe):
         dataframe[column] = dataframe[column].astype(str).str.replace(' ', '').str.replace(',', '.').astype(float)
     return dataframe
 
+
 df_final = remove_space(dataset2)
 
 # Calculate the sum of each column from the 2nd column to the end
@@ -22,12 +23,9 @@ total_row.insert(0, df_final.columns[1], 'Tout')
 total_row.insert(0, df_final.columns[0], 'Total')
 df_final = pd.concat([df_final, total_row], ignore_index=True)
 
-
-
-print(df_final.tail(10))
-
-
-
+# Rename the columns with the years to remove decimals
+rename_dict = {f'{year},00': str(year) for year in range(2008, 2022)}
+df_final.rename(columns=rename_dict, inplace=True)
 
 
 # Save the dataset to a csv file to make tests
