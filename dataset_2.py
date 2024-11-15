@@ -30,6 +30,6 @@ print(df_final.tail(10))
 
 
 
-
-# with open('data_output\dataset2_emplois_draft.csv', 'w') as f:
+# Save the dataset to a csv file to make tests
+# with open('data_output\dataset2_preanalysis.csv', 'w', newline='', encoding='UTF-8') as f:
 #     df_final.to_csv(f, index=False)
