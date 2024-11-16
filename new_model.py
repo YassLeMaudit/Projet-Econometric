@@ -15,6 +15,9 @@ data_long = data.melt(
 data_long["Année"] = pd.to_numeric(data_long["Année"], errors="coerce")
 data_long = data_long.dropna()
 
+# Filtrer les lignes où Domaine est "Tout"
+data_long = data_long[data_long["Domaine"] != "Tout"]
+
 # Supprimer les doublons dans data_long
 data_long = data_long.drop_duplicates(subset=["Année", "Domaine"])
 
@@ -26,6 +29,9 @@ params_long = param_data.melt(
     value_name="Valeur"
 )
 params_long["Année"] = pd.to_numeric(params_long["Année"], errors="coerce")
+
+# Filtrer les lignes où Domaine est "Tout" dans params_long
+params_long = params_long[params_long["Domaine"] != "Tout"]
 
 # Renommer la colonne Domaine dans params_long pour éviter les confusions
 params_long = params_long.rename(columns={"Domaine": "Paramètre"})
@@ -43,6 +49,9 @@ merged_data = merged_data.rename(columns={
     "Domaine": "Domaine_emploi",  # Domaine réel des emplois
     "Paramètre": "Nom_paramètre"  # Nom des paramètres fusionnés
 })
+
+# Filtrer les lignes où Domaine_emploi est "Tout" après la fusion
+merged_data = merged_data[merged_data["Domaine_emploi"] != "Tout"]
 
 # Supprimer les doublons si nécessaire
 merged_data = merged_data.drop_duplicates(subset=["Année", "Domaine_emploi"])
