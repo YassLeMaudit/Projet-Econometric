@@ -1,0 +1,38 @@
+import pandas as pd
+import numpy as np
+import statsmodels.formula.api as smf
+import matplotlib.pyplot as plt
+
+data = pd.read_csv('data_output/data.csv')
+
+df_long = pd.melt(
+    data,
+    id_vars=['Mesure (Unité de mesure combinée)', 'Domaine'],
+    value_vars=[col for col in data.columns if col.startswith('y_')],
+    var_name='year',
+    value_name='value'
+)
+
+df_long['year'] = df_long['year'].str.replace('y_', '').astype(int)
+
+domaines = df_long['Domaine'].unique()
+
+all_predictions = pd.DataFrame()
+
+
+for domaine in domaines:
+    domaine_data = df_long[df_long['Domaine'] == domaine]
+    model = smf.ols(formula='value ~ year', data=domaine_data).fit()
+    futur_years = np.arange(2022, 2051)
+    futur_data = pd.DataFrame({
+        'year': futur_years,
+        'Domaine': domaine
+    })
+    futur_data['value'] = model.predict(futur_data)
+    all_predictions = pd.concat([all_predictions, futur_data], ignore_index=True)
+
+print(all_predictions.head())
+
+
+
+all_predictions.to_csv('prediction.csv',index=False)

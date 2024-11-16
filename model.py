@@ -33,7 +33,7 @@ futur_years = np.arange(2022, 2051)
 futur_data = pd.DataFrame({
     'year': futur_years,
     'Mesure (Unité de mesure combinée)': ['Emploi dans les activités de l\'économie verte'] * len(futur_years),
-    'Domaine': ['Eco-activités'] * len(futur_years)
+    'Domaine': ['Bruit'] * len(futur_years)
 })
 
 futur_data['value'] = model.predict(futur_data)
