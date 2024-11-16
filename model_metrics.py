@@ -4,7 +4,7 @@ import numpy as np
 from statsmodels.stats.outliers_influence import variance_inflation_factor
 
 # Charger les données
-data = pd.read_csv('data_output/dataset_gdp.csv')
+data = pd.read_csv('data_initial/dataset_gdp.csv')
 
 # Restructurer les données d'emploi
 data_long = data.melt(
@@ -125,7 +125,7 @@ for domaine in domaines:
 final_projections_df = pd.DataFrame(final_projections)
 
 # Sauvegarder les prédictions dans un fichier CSV
-final_projections_df.to_csv("projections_emplois_2050.csv", index=False)
+final_projections_df.to_csv("data_output/projections_emplois_2050.csv", index=False)
 
 # Identifier les 5 domaines avec la plus grande augmentation
 augmentation_df = pd.DataFrame(augmentation_data)
