@@ -34,5 +34,15 @@ for domaine in domaines:
 print(all_predictions.head())
 
 
+plt.figure(figsize=(12, 8))
+for domaine in domaines:
+    domaine_predictions = all_predictions[all_predictions['Domaine'] == domaine]
+    plt.plot(domaine_predictions['year'], domaine_predictions['value'], label=domaine)
 
-all_predictions.to_csv('prediction.csv',index=False)
+
+plt.title("Prédictions des emplois par domaine jusqu'en 2050")
+plt.xlabel("Année")
+plt.ylabel("Nombre d'emplois")
+plt.legend()
+plt.grid()
+plt.show()
