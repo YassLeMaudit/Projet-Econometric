@@ -2,7 +2,7 @@ import pandas as pd
 
 
 def clean_dataset():
-    with open('data_initial\dataset_gdp.csv',encoding='UTF-8') as f:
+    with open('data_initial\dataset2_emplois.csv',encoding='UTF-8') as f:
         dataset2 = pd.read_csv(f)
 
     def remove_space(dataframe):
@@ -26,10 +26,10 @@ def clean_dataset():
     df_final.rename(columns=rename_dict, inplace=True)
 
     # Remove 'Total Général rows' and values in % rows
-    df_final.drop(df_final[(df_final['Domaine'] == 'Évolution annuelle en %')].index, inplace=True)
+    df_final.drop(df_final[(df_final['Domaine'] == 'Total général') | (df_final['Domaine'] == 'Évolution annuelle en %')].index, inplace=True)
 
     # Save the dataset to a csv file to make tests
-    with open('data_output\dataset_gdp.csv', 'w', newline='', encoding='UTF-8') as f:
+    with open('data_output\data.csv', 'w', newline='', encoding='UTF-8') as f:
         df_final.to_csv(f, index=False)
     
     return df_final
