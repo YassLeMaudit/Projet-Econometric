@@ -1,63 +1,67 @@
-import statsmodels.formula.api as smf
 import pandas as pd
 import numpy as np
+import statsmodels.formula.api as smf
 import matplotlib.pyplot as plt
+from statsmodels.stats.outliers_influence import variance_inflation_factor
+from statsmodels.tools.tools import add_constant
+from helpers.dataset2_cleaning import clean_dataset
 
-data = pd.read_csv('data_output/data.csv')
 
+
+data = clean_dataset()
+
+ignored_columns = ['Mesure (Unité de mesure combinée)', 'Domaine']
 df_long = pd.melt(
     data,
     id_vars=['Mesure (Unité de mesure combinée)', 'Domaine'],
-    value_vars=[col for col in data.columns if col.startswith('y_')],
+    value_vars=[col for col in data.columns if col not in ignored_columns],
     var_name='year',
     value_name='value'
 )
 
+df_long['year'] = df_long['year'].astype(int)
 
-df_long['year'] = df_long['year'].str.replace('y_', '').astype(int)
+domaines = df_long['Domaine'].unique()
 
-print(df_long.head())
+all_predictions = pd.DataFrame()
 
-
-model = smf.ols(
-    formula='value ~ year + C(Q("Mesure (Unité de mesure combinée)")) + C(Domaine)',
-    data=df_long
-).fit()
+X = df_long[['year', 'value']]  
 
 
-model_sum = model.summary()
-print(model_sum)
+X = add_constant(X)
 
 
-futur_years = np.arange(2022, 2051)
-futur_data = pd.DataFrame({
-    'year': futur_years,
-    'Mesure (Unité de mesure combinée)': ['Emploi dans les activités de l\'économie verte'] * len(futur_years),
-    'Domaine': ['Bruit'] * len(futur_years)
-})
-
-futur_data['value'] = model.predict(futur_data)
+vif_data = pd.DataFrame()
+vif_data["Variable"] = X.columns
+vif_data["VIF"] = [variance_inflation_factor(X.values, i) for i in range(X.shape[1])]
 
 
-print(futur_data)
+print(vif_data)
 
 
-future_data = futur_data
+for domaine in domaines:
+    domaine_data = df_long[df_long['Domaine'] == domaine]
+    model = smf.ols(formula='value ~ year', data=domaine_data).fit()
+    futur_years = np.arange(2022, 2051)
+    futur_data = pd.DataFrame({
+        'year': futur_years,
+        'Domaine': domaine
+    })
+    futur_data['value'] = model.predict(futur_data)
+    all_predictions = pd.concat([all_predictions, futur_data], ignore_index=True)
+
+print(all_predictions.head())
 
 
-plt.figure(figsize=(10, 6))
+plt.figure(figsize=(12, 8))
+for domaine in domaines:
+    domaine_predictions = all_predictions[all_predictions['Domaine'] == domaine]
+    plt.plot(domaine_predictions['year'], domaine_predictions['value'], label=domaine)
 
 
-plt.plot(
-    future_data['year'],
-    future_data['value'],
-    label='Prédictions futures',
-    linestyle='--'
-)
-
-plt.title("Projection des valeurs jusqu'en 2050")
+plt.title("Prédictions des emplois par domaine jusqu'en 2050")
 plt.xlabel("Année")
-plt.ylabel("Valeurs")
+plt.ylabel("Nombre d'emplois")
 plt.legend()
 plt.grid()
 plt.show()
