@@ -44,13 +44,8 @@ merged_data = merged_data.rename(columns={
     "Paramètre": "Nom_paramètre"  # Nom des paramètres fusionnés
 })
 
-# Vérifier le résultat
-print("Colonnes de merged_data :", merged_data.columns)
-print(merged_data.head())
-
 # Supprimer les doublons si nécessaire
 merged_data = merged_data.drop_duplicates(subset=["Année", "Domaine_emploi"])
-print("Taille de merged_data après nettoyage :", merged_data.shape)
 
 # Liste des domaines uniques
 domaines = merged_data["Domaine_emploi"].unique()
@@ -61,6 +56,7 @@ future_years = np.arange(2022, 2051)
 # Stocker les projections et les métriques
 final_projections = []
 model_metrics = []
+augmentation_data = []
 
 # Ajuster et prédire pour chaque domaine
 for domaine in domaines:
@@ -81,21 +77,17 @@ for domaine in domaines:
     vif_data = pd.DataFrame()
     vif_data["Variable"] = X.columns
     vif_data["VIF"] = [variance_inflation_factor(X.values, i) for i in range(X.shape[1])]
-    ##print(f"\n--- VIF pour le domaine {domaine} ---\n{vif_data}")
     
     # Ajuster le modèle de régression
     model = sm.OLS(y, X).fit()
-    
-    # Imprimer les métriques du modèle
-    ##print(f"\n--- Résultats pour le domaine {domaine} ---")
-    ##print(model.summary())
     
     # Stocker les métriques
     model_metrics.append({
         "Domaine": domaine,
         "R2": model.rsquared,
         "R2 ajusté": model.rsquared_adj,
-        "P-valeur (F-stat)": model.f_pvalue
+        "P-valeur (F-stat)": model.f_pvalue,
+        "VIF": vif_data.to_dict(orient="records")
     })
     
     # Préparer les prédicteurs pour les années futures
@@ -115,6 +107,10 @@ for domaine in domaines:
             "Année": year,
             "Nombre d'emplois (prédit)": pred
         })
+    
+    # Calculer l'augmentation prévue pour ce domaine
+    augmentation = future_predictions.iloc[-1] - future_predictions.iloc[0]
+    augmentation_data.append({"Domaine": domaine, "Augmentation": augmentation})
 
 # Convertir les résultats en DataFrame
 final_projections_df = pd.DataFrame(final_projections)
@@ -122,8 +118,18 @@ final_projections_df = pd.DataFrame(final_projections)
 # Sauvegarder les prédictions dans un fichier CSV
 final_projections_df.to_csv("projections_emplois_2050.csv", index=False)
 
-# Convertir les métriques en DataFrame et les sauvegarder
-model_metrics_df = pd.DataFrame(model_metrics)
-model_metrics_df.to_csv("model_metrics.csv", index=False)
+# Identifier les 5 domaines avec la plus grande augmentation
+augmentation_df = pd.DataFrame(augmentation_data)
+top_5 = augmentation_df.nlargest(5, "Augmentation")
 
-print("\nLes prédictions et les métriques des modèles ont été sauvegardées.")
+# Afficher les métriques et le VIF pour les 5 domaines
+print("\n--- Top 5 des domaines avec la plus grande augmentation ---")
+print(top_5)
+
+for domaine in top_5["Domaine"]:
+    metrics = next(item for item in model_metrics if item["Domaine"] == domaine)
+    print(f"\n--- Métriques pour le domaine {domaine} ---")
+    print(f"R2: {metrics['R2']}, R2 ajusté: {metrics['R2 ajusté']}, P-valeur (F-stat): {metrics['P-valeur (F-stat)']}")
+    print("\n--- VIF ---")
+    vif = pd.DataFrame(metrics["VIF"])
+    print(vif)
