@@ -5,12 +5,15 @@ import matplotlib.pyplot as plt
 from statsmodels.stats.outliers_influence import variance_inflation_factor
 from statsmodels.tools.tools import add_constant
 from helpers.dataset2_cleaning import clean_dataset
-
+import plotly.graph_objs as go
+import plotly.express as px
 
 
 data = clean_dataset()
 
+
 ignored_columns = ['Mesure (Unité de mesure combinée)', 'Domaine']
+
 df_long = pd.melt(
     data,
     id_vars=['Mesure (Unité de mesure combinée)', 'Domaine'],
@@ -53,15 +56,27 @@ for domaine in domaines:
 print(all_predictions.head())
 
 
-plt.figure(figsize=(12, 8))
+# Create a figure
+fig = go.Figure()
+
+# Add traces for each 'Domaine'
 for domaine in domaines:
     domaine_predictions = all_predictions[all_predictions['Domaine'] == domaine]
-    plt.plot(domaine_predictions['year'], domaine_predictions['value'], label=domaine)
+    fig.add_trace(go.Scatter(
+        x=domaine_predictions['year'],
+        y=domaine_predictions['value'],
+        mode='lines',
+        name=domaine
+    ))
 
+# Update layout
+fig.update_layout(
+    title="Prédictions des emplois par domaine jusqu'en 2050",
+    xaxis_title="Année",
+    yaxis_title="Nombre d'emplois",
+    legend_title="Domaine",
+    template="plotly_white"
+)
 
-plt.title("Prédictions des emplois par domaine jusqu'en 2050")
-plt.xlabel("Année")
-plt.ylabel("Nombre d'emplois")
-plt.legend()
-plt.grid()
-plt.show()
+# Show the figure
+fig.show()
