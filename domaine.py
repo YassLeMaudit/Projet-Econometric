@@ -2,6 +2,9 @@ import pandas as pd
 import numpy as np
 import statsmodels.formula.api as smf
 import matplotlib.pyplot as plt
+from statsmodels.stats.outliers_influence import variance_inflation_factor
+from statsmodels.tools.tools import add_constant
+
 
 data = pd.read_csv('data_output/data.csv')
 
@@ -18,6 +21,19 @@ df_long['year'] = df_long['year'].str.replace('y_', '').astype(int)
 domaines = df_long['Domaine'].unique()
 
 all_predictions = pd.DataFrame()
+
+X = df_long[['year', 'value']]  
+
+
+X = add_constant(X)
+
+
+vif_data = pd.DataFrame()
+vif_data["Variable"] = X.columns
+vif_data["VIF"] = [variance_inflation_factor(X.values, i) for i in range(X.shape[1])]
+
+
+print(vif_data)
 
 
 for domaine in domaines:
