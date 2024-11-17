@@ -4,7 +4,7 @@ import numpy as np
 from statsmodels.stats.outliers_influence import variance_inflation_factor
 
 # Charger les données
-data = pd.read_csv('data_initial/dataset_gdp.csv')
+data = pd.read_csv('data_output/dataset_gdp.csv')
 
 # Restructurer les données d'emploi
 data_long = data.melt(

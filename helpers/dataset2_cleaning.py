@@ -29,7 +29,7 @@ def clean_dataset():
     df_final.drop(df_final[(df_final['Domaine'] == 'Total général') | (df_final['Domaine'] == 'Évolution annuelle en %')].index, inplace=True)
 
     # Save the dataset to a csv file to make tests
-    with open('data_output\data.csv', 'w', newline='', encoding='UTF-8') as f:
+    with open('data_output\data_emplois_cleaned.csv', 'w', newline='', encoding='UTF-8') as f:
         df_final.to_csv(f, index=False)
     
     return df_final
