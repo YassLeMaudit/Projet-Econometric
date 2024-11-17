@@ -2,6 +2,8 @@ import pandas as pd
 import statsmodels.api as sm
 import numpy as np
 from statsmodels.stats.outliers_influence import variance_inflation_factor
+import plotly.express as px
+import plotly.graph_objects as go
 
 # Charger les données
 data = pd.read_csv('data_output/dataset_gdp.csv')
@@ -142,3 +144,12 @@ for domaine in top_5["Domaine"]:
     print("\n--- VIF ---")
     vif = pd.DataFrame(metrics["VIF"])
     print(vif)
+    
+# Visualisation des prédictions futures
+fig = px.line(final_projections_df, x="Année", y="Nombre d'emplois (prédit)", color="Domaine",
+              title="Prédictions du nombre d'emplois par domaine jusqu'en 2050")
+fig.show()
+
+# Visualisation des augmentations prévues
+fig2 = px.bar(top_5, x="Domaine", y="Augmentation", title="Top 5 des domaines avec la plus grande augmentation prévue de 2022 à 2050")
+fig2.show()
