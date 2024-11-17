@@ -151,7 +151,9 @@ print(f"P-valeur combinée (F-stat): {combined_p_value}")
 
 # Identifier les 5 domaines avec la plus grande augmentation
 augmentation_df = pd.DataFrame(augmentation_data)
-top_5 = augmentation_df.nlargest(5, "Augmentation")
+
+augmentation_filtered = augmentation_df[~augmentation_df["Domaine"].isin(ignored_domains)]
+top_5 = augmentation_filtered.nlargest(5, "Augmentation")
 
 # Afficher les métriques et le VIF pour les 5 domaines
 print("\n--- Top 5 des domaines avec la plus grande augmentation ---")
@@ -164,12 +166,23 @@ for domaine in top_5["Domaine"]:
     print("\n--- VIF ---")
     vif = pd.DataFrame(metrics["VIF"])
     print(vif)
-    
-# Visualisation des prédictions futures
+
+
+
+# Visualisation des prédictions futures pour tous les domaines
 fig = px.line(final_projections_df, x="Année", y="Nombre d'emplois (prédit)", color="Domaine",
               title="Prédictions du nombre d'emplois par domaine jusqu'en 2050")
 fig.show()
 
+
+# Filtrer les prédictions pour inclure uniquement les 5 domaines avec la plus grande augmentation
+top_5_domains = top_5["Domaine"].tolist()
+filtered_projections_df = final_projections_df[final_projections_df["Domaine"].isin(top_5_domains)]
+
+# Visualisation des prédictions futures pour les 5 domaines avec la plus grande augmentation
+fig = px.line(filtered_projections_df, x="Année", y="Nombre d'emplois (prédit)", color="Domaine",
+              title="Top 5 Secteur entre 2022 et 2050")
+fig.show()
 # Visualisation des augmentations prévues
-fig2 = px.bar(top_5, x="Domaine", y="Augmentation", title="Top 5 des domaines avec la plus grande augmentation prévue de 2022 à 2050")
+fig2 = px.bar(top_5, x="Domaine", y="Augmentation", title="Top 5 Secteur entre 2022 et 2050")
 fig2.show()

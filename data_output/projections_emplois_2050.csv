@@ -1,1190 +1,755 @@
 Domaine,Année,Nombre d'emplois (prédit)
-Eco-activités,2022,692508.155519272
-Eco-activités,2023,706005.5572075571
-Eco-activités,2024,719502.9588958423
-Eco-activités,2025,733000.3605841275
-Eco-activités,2026,746497.7622724127
-Eco-activités,2027,759995.1639606978
-Eco-activités,2028,773492.565648983
-Eco-activités,2029,786989.9673372682
-Eco-activités,2030,800487.3690255533
-Eco-activités,2031,813984.7707138385
-Eco-activités,2032,827482.17240212
-Eco-activités,2033,840979.5740904051
-Eco-activités,2034,854476.9757786903
-Eco-activités,2035,867974.3774669755
-Eco-activités,2036,881471.7791552607
-Eco-activités,2037,894969.1808435458
-Eco-activités,2038,908466.582531831
-Eco-activités,2039,921963.9842201162
-Eco-activités,2040,935461.3859084013
-Eco-activités,2041,948958.7875966865
-Eco-activités,2042,962456.1892849717
-Eco-activités,2043,975953.5909732569
-Eco-activités,2044,989450.992661542
-Eco-activités,2045,1002948.3943498272
-Eco-activités,2046,1016445.7960381124
-Eco-activités,2047,1029943.1977263975
-Eco-activités,2048,1043440.5994146827
-Eco-activités,2049,1056938.001102968
-Eco-activités,2050,1070435.402791253
-Protection de l'environnement,2022,353743.73491452174
-Protection de l'environnement,2023,363053.3376650317
-Protection de l'environnement,2024,372362.940415538
-Protection de l'environnement,2025,381672.5431660442
-Protection de l'environnement,2026,390982.1459165542
-Protection de l'environnement,2027,400291.74866706046
-Protection de l'environnement,2028,409601.35141757043
-Protection de l'environnement,2029,418910.9541680767
-Protection de l'environnement,2030,428220.55691858294
-Protection de l'environnement,2031,437530.1596690929
-Protection de l'environnement,2032,446839.76241959917
-Protection de l'environnement,2033,456149.3651701054
-Protection de l'environnement,2034,465458.9679206154
-Protection de l'environnement,2035,474768.57067112165
-Protection de l'environnement,2036,484078.1734216316
-Protection de l'environnement,2037,493387.7761721379
-Protection de l'environnement,2038,502697.37892264413
-Protection de l'environnement,2039,512006.9816731541
-Protection de l'environnement,2040,521316.58442366036
-Protection de l'environnement,2041,530626.1871741666
-Protection de l'environnement,2042,539935.7899246765
-Protection de l'environnement,2043,549245.3926751828
-Protection de l'environnement,2044,558554.9954256928
-Protection de l'environnement,2045,567864.598176199
-Protection de l'environnement,2046,577174.2009267053
-Protection de l'environnement,2047,586483.8036772152
-Protection de l'environnement,2048,595793.4064277215
-Protection de l'environnement,2049,605103.0091782277
-Protection de l'environnement,2050,614412.6119287377
-Air,2022,10912.357006932538
-Air,2023,11257.195084047433
-Air,2024,11602.033161162328
-Air,2025,11946.871238277223
-Air,2026,12291.709315392118
-Air,2027,12636.54739250713
-Air,2028,12981.385469622024
-Air,2029,13326.22354673692
-Air,2030,13671.061623851814
-Air,2031,14015.89970096671
-Air,2032,14360.737778081604
-Air,2033,14705.575855196616
-Air,2034,15050.41393231151
-Air,2035,15395.252009426405
-Air,2036,15740.0900865413
-Air,2037,16084.928163656195
-Air,2038,16429.76624077109
-Air,2039,16774.6043178861
-Air,2040,17119.442395000995
-Air,2041,17464.28047211589
-Air,2042,17809.118549230785
-Air,2043,18153.95662634568
-Air,2044,18498.794703460575
-Air,2045,18843.632780575586
-Air,2046,19188.47085769048
-Air,2047,19533.308934805376
-Air,2048,19878.14701192027
-Air,2049,20222.985089035166
-Air,2050,20567.82316615006
-Eaux_usées,2022,53406.25197724381
-Eaux_usées,2023,52982.43795516214
-Eaux_usées,2024,52558.62393308035
-Eaux_usées,2025,52134.80991099868
-Eaux_usées,2026,51710.99588891689
-Eaux_usées,2027,51287.18186683522
-Eaux_usées,2028,50863.36784475343
-Eaux_usées,2029,50439.55382267176
-Eaux_usées,2030,50015.739800589974
-Eaux_usées,2031,49591.9257785083
-Eaux_usées,2032,49168.111756426515
-Eaux_usées,2033,48744.297734344844
-Eaux_usées,2034,48320.483712263056
-Eaux_usées,2035,47896.669690181385
-Eaux_usées,2036,47472.8556680996
-Eaux_usées,2037,47049.041646017926
-Eaux_usées,2038,46625.22762393614
-Eaux_usées,2039,46201.41360185447
-Eaux_usées,2040,45777.59957977268
-Eaux_usées,2041,45353.78555769101
-Eaux_usées,2042,44929.97153560922
-Eaux_usées,2043,44506.15751352755
-Eaux_usées,2044,44082.34349144576
-Eaux_usées,2045,43658.52946936409
-Eaux_usées,2046,43234.7154472823
-Eaux_usées,2047,42810.90142520063
-Eaux_usées,2048,42387.08740311884
-Eaux_usées,2049,41963.273381037056
-Eaux_usées,2050,41539.459358955384
-Déchets,2022,104015.74495759711
-Déchets,2023,104868.8442852766
-Déchets,2024,105721.94361295586
-Déchets,2025,106575.04294063535
-Déchets,2026,107428.14226831461
-Déchets,2027,108281.2415959941
-Déchets,2028,109134.34092367336
-Déchets,2029,109987.44025135285
-Déchets,2030,110840.5395790321
-Déchets,2031,111693.6389067116
-Déchets,2032,112546.73823439085
-Déchets,2033,113399.83756207034
-Déchets,2034,114252.9368897496
-Déchets,2035,115106.0362174291
-Déchets,2036,115959.13554510835
-Déchets,2037,116812.23487278784
-Déchets,2038,117665.3342004671
-Déchets,2039,118518.43352814659
-Déchets,2040,119371.53285582585
-Déchets,2041,120224.63218350534
-Déchets,2042,121077.7315111846
-Déchets,2043,121930.83083886409
-Déchets,2044,122783.93016654334
-Déchets,2045,123637.02949422284
-Déchets,2046,124490.1288219021
-Déchets,2047,125343.22814958158
-Déchets,2048,126196.32747726084
-Déchets,2049,127049.4268049401
-Déchets,2050,127902.52613261959
-Déchets_radio,2022,3074.42407978467
-Déchets_radio,2023,3023.4996713749983
-Déchets_radio,2024,2972.575262965341
-Déchets_radio,2025,2921.650854555684
-Déchets_radio,2026,2870.726446146012
-Déchets_radio,2027,2819.802037736355
-Déchets_radio,2028,2768.8776293266833
-Déchets_radio,2029,2717.953220917026
-Déchets_radio,2030,2667.0288125073544
-Déchets_radio,2031,2616.104404097697
-Déchets_radio,2032,2565.17999568804
-Déchets_radio,2033,2514.2555872783682
-Déchets_radio,2034,2463.331178868711
-Déchets_radio,2035,2412.4067704590393
-Déchets_radio,2036,2361.482362049382
-Déchets_radio,2037,2310.557953639725
-Déchets_radio,2038,2259.633545230053
-Déchets_radio,2039,2208.709136820396
-Déchets_radio,2040,2157.7847284107243
-Déchets_radio,2041,2106.860320001067
-Déchets_radio,2042,2055.9359115913953
-Déchets_radio,2043,2005.0115031817381
-Déchets_radio,2044,1954.087094772081
-Déchets_radio,2045,1903.1626863624092
-Déchets_radio,2046,1852.238277952752
-Déchets_radio,2047,1801.3138695430803
-Déchets_radio,2048,1750.389461133423
-Déchets_radio,2049,1699.465052723766
-Déchets_radio,2050,1648.5406443140942
-Sols et masses d'eau,2022,146442.91133876675
-Sols et masses d'eau,2023,154496.49951726914
-Sols et masses d'eau,2024,162550.08769577154
-Sols et masses d'eau,2025,170603.67587427393
-Sols et masses d'eau,2026,178657.26405277633
-Sols et masses d'eau,2027,186710.85223127872
-Sols et masses d'eau,2028,194764.44040978112
-Sols et masses d'eau,2029,202818.02858828352
-Sols et masses d'eau,2030,210871.6167667859
-Sols et masses d'eau,2031,218925.2049452883
-Sols et masses d'eau,2032,226978.7931237907
-Sols et masses d'eau,2033,235032.3813022931
-Sols et masses d'eau,2034,243085.9694807955
-Sols et masses d'eau,2035,251139.5576592979
-Sols et masses d'eau,2036,259193.1458378003
-Sols et masses d'eau,2037,267246.7340163027
-Sols et masses d'eau,2038,275300.3221948051
-Sols et masses d'eau,2039,283353.9103733075
-Sols et masses d'eau,2040,291407.49855180987
-Sols et masses d'eau,2041,299461.08673031226
-Sols et masses d'eau,2042,307514.67490881466
-Sols et masses d'eau,2043,315568.26308731706
-Sols et masses d'eau,2044,323621.85126581945
-Sols et masses d'eau,2045,331675.43944432185
-Sols et masses d'eau,2046,339729.02762282424
-Sols et masses d'eau,2047,347782.61580132664
-Sols et masses d'eau,2048,355836.20397982904
-Sols et masses d'eau,2049,363889.79215833143
-Sols et masses d'eau,2050,371943.3803368338
-Bruit,2022,4249.487425908581
-Bruit,2023,4121.93336841073
-Bruit,2024,3994.3793109128787
-Bruit,2025,3866.8252534150274
-Bruit,2026,3739.271195917176
-Bruit,2027,3611.717138419325
-Bruit,2028,3484.1630809214444
-Bruit,2029,3356.609023423593
-Bruit,2030,3229.0549659257417
-Bruit,2031,3101.5009084278904
-Bruit,2032,2973.946850930039
-Bruit,2033,2846.392793432188
-Bruit,2034,2718.8387359343074
-Bruit,2035,2591.284678436456
-Bruit,2036,2463.7306209386047
-Bruit,2037,2336.1765634407534
-Bruit,2038,2208.622505942902
-Bruit,2039,2081.0684484450508
-Bruit,2040,1953.5143909471703
-Bruit,2041,1825.960333449319
-Bruit,2042,1698.4062759514677
-Bruit,2043,1570.8522184536164
-Bruit,2044,1443.298160955765
-Bruit,2045,1315.7441034579138
-Bruit,2046,1188.1900459600333
-Bruit,2047,1060.635988462182
-Bruit,2048,933.0819309643307
-Bruit,2049,805.5278734664794
-Bruit,2050,677.9738159686281
-"Nature, biodiversité, paysages",2022,31643.408368581728
-"Nature, biodiversité, paysages",2023,32303.881865344996
-"Nature, biodiversité, paysages",2024,32964.35536210827
-"Nature, biodiversité, paysages",2025,33624.82885887154
-"Nature, biodiversité, paysages",2026,34285.30235563457
-"Nature, biodiversité, paysages",2027,34945.77585239784
-"Nature, biodiversité, paysages",2028,35606.24934916111
-"Nature, biodiversité, paysages",2029,36266.72284592438
-"Nature, biodiversité, paysages",2030,36927.19634268765
-"Nature, biodiversité, paysages",2031,37587.669839450915
-"Nature, biodiversité, paysages",2032,38248.14333621395
-"Nature, biodiversité, paysages",2033,38908.61683297722
-"Nature, biodiversité, paysages",2034,39569.09032974049
-"Nature, biodiversité, paysages",2035,40229.563826503756
-"Nature, biodiversité, paysages",2036,40890.037323267024
-"Nature, biodiversité, paysages",2037,41550.51082003029
-"Nature, biodiversité, paysages",2038,42210.98431679356
-"Nature, biodiversité, paysages",2039,42871.4578135566
-"Nature, biodiversité, paysages",2040,43531.931310319866
-"Nature, biodiversité, paysages",2041,44192.404807083134
-"Nature, biodiversité, paysages",2042,44852.8783038464
-"Nature, biodiversité, paysages",2043,45513.35180060967
-"Nature, biodiversité, paysages",2044,46173.82529737294
-"Nature, biodiversité, paysages",2045,46834.298794135975
-"Nature, biodiversité, paysages",2046,47494.772290899244
-"Nature, biodiversité, paysages",2047,48155.24578766251
-"Nature, biodiversité, paysages",2048,48815.71928442578
-"Nature, biodiversité, paysages",2049,49476.19278118905
-"Nature, biodiversité, paysages",2050,50136.66627795232
-Gestion des ressources naturelles,2022,254476.239566156
-Gestion des ressources naturelles,2023,258600.51912735804
-Gestion des ressources naturelles,2024,262724.7986885601
-Gestion des ressources naturelles,2025,266849.0782497621
-Gestion des ressources naturelles,2026,270973.35781096417
-Gestion des ressources naturelles,2027,275097.6373721662
-Gestion des ressources naturelles,2028,279221.91693336825
-Gestion des ressources naturelles,2029,283346.1964945703
-Gestion des ressources naturelles,2030,287470.47605577233
-Gestion des ressources naturelles,2031,291594.7556169744
-Gestion des ressources naturelles,2032,295719.0351781764
-Gestion des ressources naturelles,2033,299843.31473937846
-Gestion des ressources naturelles,2034,303967.5943005805
-Gestion des ressources naturelles,2035,308091.8738617816
-Gestion des ressources naturelles,2036,312216.1534229846
-Gestion des ressources naturelles,2037,316340.4329841857
-Gestion des ressources naturelles,2038,320464.71254538867
-Gestion des ressources naturelles,2039,324588.9921065898
-Gestion des ressources naturelles,2040,328713.27166779275
-Gestion des ressources naturelles,2041,332837.55122899386
-Gestion des ressources naturelles,2042,336961.83079019684
-Gestion des ressources naturelles,2043,341086.11035139795
-Gestion des ressources naturelles,2044,345210.3899126009
-Gestion des ressources naturelles,2045,349334.66947380203
-Gestion des ressources naturelles,2046,353458.949035005
-Gestion des ressources naturelles,2047,357583.2285962061
-Gestion des ressources naturelles,2048,361707.5081574091
-Gestion des ressources naturelles,2049,365831.78771861206
-Gestion des ressources naturelles,2050,369956.0672798132
-gestion_eau,2022,4330.292459339419
-gestion_eau,2023,4335.598120584645
-gestion_eau,2024,4340.90378182987
-gestion_eau,2025,4346.209443075096
-gestion_eau,2026,4351.515104320321
-gestion_eau,2027,4356.820765565545
-gestion_eau,2028,4362.126426810771
-gestion_eau,2029,4367.432088055996
-gestion_eau,2030,4372.73774930122
-gestion_eau,2031,4378.043410546446
-gestion_eau,2032,4383.349071791671
-gestion_eau,2033,4388.654733036897
-gestion_eau,2034,4393.960394282122
-gestion_eau,2035,4399.266055527346
-gestion_eau,2036,4404.571716772572
-gestion_eau,2037,4409.877378017797
-gestion_eau,2038,4415.183039263021
-gestion_eau,2039,4420.488700508246
-gestion_eau,2040,4425.794361753472
-gestion_eau,2041,4431.100022998698
-gestion_eau,2042,4436.405684243923
-gestion_eau,2043,4441.711345489147
-gestion_eau,2044,4447.017006734372
-gestion_eau,2045,4452.322667979598
-gestion_eau,2046,4457.628329224822
-gestion_eau,2047,4462.933990470047
-gestion_eau,2048,4468.239651715273
-gestion_eau,2049,4473.545312960498
-gestion_eau,2050,4478.850974205724
-gestion_forêt,2022,10216.82725996405
-gestion_forêt,2023,10138.66137081638
-gestion_forêt,2024,10060.495481668682
-gestion_forêt,2025,9982.329592521013
-gestion_forêt,2026,9904.163703373315
-gestion_forêt,2027,9825.997814225646
-gestion_forêt,2028,9747.831925077948
-gestion_forêt,2029,9669.66603593025
-gestion_forêt,2030,9591.50014678258
-gestion_forêt,2031,9513.334257634882
-gestion_forêt,2032,9435.168368487213
-gestion_forêt,2033,9357.002479339515
-gestion_forêt,2034,9278.836590191846
-gestion_forêt,2035,9200.670701044148
-gestion_forêt,2036,9122.504811896479
-gestion_forêt,2037,9044.33892274878
-gestion_forêt,2038,8966.173033601111
-gestion_forêt,2039,8888.007144453413
-gestion_forêt,2040,8809.841255305715
-gestion_forêt,2041,8731.675366158046
-gestion_forêt,2042,8653.509477010348
-gestion_forêt,2043,8575.343587862679
-gestion_forêt,2044,8497.17769871498
-gestion_forêt,2045,8419.011809567312
-gestion_forêt,2046,8340.845920419613
-gestion_forêt,2047,8262.680031271944
-gestion_forêt,2048,8184.514142124246
-gestion_forêt,2049,8106.348252976548
-gestion_forêt,2050,8028.182363828879
-recup,2022,30806.04743319416
-recup,2023,31282.75851952463
-recup,2024,31759.469605855214
-recup,2025,32236.1806921858
-recup,2026,32712.89177851627
-recup,2027,33189.60286484686
-recup,2028,33666.313951177326
-recup,2029,34143.02503750791
-recup,2030,34619.7361238385
-recup,2031,35096.44721016897
-recup,2032,35573.158296499554
-recup,2033,36049.869382830024
-recup,2034,36526.58046916061
-recup,2035,37003.29155549108
-recup,2036,37480.002641821666
-recup,2037,37956.71372815225
-recup,2038,38433.42481448272
-recup,2039,38910.13590081331
-recup,2040,39386.84698714378
-recup,2041,39863.55807347436
-recup,2042,40340.26915980495
-recup,2043,40816.98024613542
-recup,2044,41293.691332466005
-recup,2045,41770.402418796475
-recup,2046,42247.11350512706
-recup,2047,42723.82459145753
-recup,2048,43200.53567778812
-recup,2049,43677.2467641187
-recup,2050,44153.95785044917
-EnR,2022,90490.22367677625
-EnR,2023,92531.70111939378
-EnR,2024,94573.17856201131
-EnR,2025,96614.6560046293
-EnR,2026,98656.13344724683
-EnR,2027,100697.61088986436
-EnR,2028,102739.08833248189
-EnR,2029,104780.56577509941
-EnR,2030,106822.04321771694
-EnR,2031,108863.52066033494
-EnR,2032,110904.99810295246
-EnR,2033,112946.47554556999
-EnR,2034,114987.95298818752
-EnR,2035,117029.43043080505
-EnR,2036,119070.90787342258
-EnR,2037,121112.3853160401
-EnR,2038,123153.8627586581
-EnR,2039,125195.34020127563
-EnR,2040,127236.81764389316
-EnR,2041,129278.29508651068
-EnR,2042,131319.7725291282
-EnR,2043,133361.24997174574
-EnR,2044,135402.72741436327
-EnR,2045,137444.20485698126
-EnR,2046,139485.6822995988
-EnR,2047,141527.15974221632
-EnR,2048,143568.63718483385
-EnR,2049,145610.11462745137
-EnR,2050,147651.5920700689
-Maîtrise énergie,2022,118632.76199939071
-Maîtrise énergie,2023,120311.68264692852
-Maîtrise énergie,2024,121990.60329446585
-Maîtrise énergie,2025,123669.52394200365
-Maîtrise énergie,2026,125348.44458954145
-Maîtrise énergie,2027,127027.36523707926
-Maîtrise énergie,2028,128706.28588461659
-Maîtrise énergie,2029,130385.20653215439
-Maîtrise énergie,2030,132064.1271796922
-Maîtrise énergie,2031,133743.04782723
-Maîtrise énergie,2032,135421.9684747678
-Maîtrise énergie,2033,137100.88912230515
-Maîtrise énergie,2034,138779.80976984295
-Maîtrise énergie,2035,140458.73041738075
-Maîtrise énergie,2036,142137.65106491855
-Maîtrise énergie,2037,143816.5717124559
-Maîtrise énergie,2038,145495.4923599937
-Maîtrise énergie,2039,147174.4130075315
-Maîtrise énergie,2040,148853.3336550693
-Maîtrise énergie,2041,150532.2543026071
-Maîtrise énergie,2042,152211.17495014443
-Maîtrise énergie,2043,153890.09559768223
-Maîtrise énergie,2044,155569.01624522003
-Maîtrise énergie,2045,157247.93689275783
-Maîtrise énergie,2046,158926.85754029517
-Maîtrise énergie,2047,160605.77818783297
-Maîtrise énergie,2048,162284.69883537077
-Maîtrise énergie,2049,163963.61948290857
-Maîtrise énergie,2050,165642.54013044637
-Activités transversales,2022,84288.07141915536
-Activités transversales,2023,84351.5857036137
-Activités transversales,2024,84415.09998807205
-Activités transversales,2025,84478.61427253041
-Activités transversales,2026,84542.12855698876
-Activités transversales,2027,84605.6428414471
-Activités transversales,2028,84669.15712590545
-Activités transversales,2029,84732.6714103638
-Activités transversales,2030,84796.18569482214
-Activités transversales,2031,84859.69997928049
-Activités transversales,2032,84923.21426373883
-Activités transversales,2033,84986.72854819718
-Activités transversales,2034,85050.24283265552
-Activités transversales,2035,85113.75711711387
-Activités transversales,2036,85177.27140157222
-Activités transversales,2037,85240.78568603056
-Activités transversales,2038,85304.29997048891
-Activités transversales,2039,85367.81425494725
-Activités transversales,2040,85431.32853940561
-Activités transversales,2041,85494.84282386396
-Activités transversales,2042,85558.3571083223
-Activités transversales,2043,85621.87139278065
-Activités transversales,2044,85685.385677239
-Activités transversales,2045,85748.89996169735
-Activités transversales,2046,85812.41424615569
-Activités transversales,2047,85875.92853061404
-Activités transversales,2048,85939.44281507238
-Activités transversales,2049,86002.95709953073
-Activités transversales,2050,86066.47138398908
-Ingénierie,2022,12702.440885184156
-Ingénierie,2023,12768.947288922964
-Ingénierie,2024,12835.453692661742
-Ingénierie,2025,12901.96009640052
-Ingénierie,2026,12968.466500139299
-Ingénierie,2027,13034.972903878106
-Ingénierie,2028,13101.479307616884
-Ingénierie,2029,13167.985711355663
-Ingénierie,2030,13234.492115094441
-Ingénierie,2031,13300.998518833248
-Ingénierie,2032,13367.504922572027
-Ingénierie,2033,13434.011326310805
-Ingénierie,2034,13500.517730049583
-Ingénierie,2035,13567.02413378839
-Ingénierie,2036,13633.53053752717
-Ingénierie,2037,13700.036941265947
-Ingénierie,2038,13766.543345004726
-Ingénierie,2039,13833.049748743533
-Ingénierie,2040,13899.556152482312
-Ingénierie,2041,13966.06255622109
-Ingénierie,2042,14032.568959959868
-Ingénierie,2043,14099.075363698676
-Ingénierie,2044,14165.581767437454
-Ingénierie,2045,14232.088171176232
-Ingénierie,2046,14298.59457491501
-Ingénierie,2047,14365.100978653818
-Ingénierie,2048,14431.607382392596
-Ingénierie,2049,14498.113786131375
-Ingénierie,2050,14564.620189870182
-R&D,2022,25170.293188149823
-R&D,2023,25169.6275179982
-R&D,2024,25168.961847846578
-R&D,2025,25168.296177694956
-R&D,2026,25167.630507543334
-R&D,2027,25166.964837391708
-R&D,2028,25166.299167240086
-R&D,2029,25165.633497088464
-R&D,2030,25164.967826936838
-R&D,2031,25164.302156785216
-R&D,2032,25163.636486633593
-R&D,2033,25162.97081648197
-R&D,2034,25162.30514633035
-R&D,2035,25161.639476178723
-R&D,2036,25160.9738060271
-R&D,2037,25160.30813587548
-R&D,2038,25159.642465723853
-R&D,2039,25158.97679557223
-R&D,2040,25158.31112542061
-R&D,2041,25157.645455268987
-R&D,2042,25156.979785117364
-R&D,2043,25156.31411496574
-R&D,2044,25155.648444814116
-R&D,2045,25154.982774662494
-R&D,2046,25154.31710451087
-R&D,2047,25153.651434359246
-R&D,2048,25152.985764207624
-R&D,2049,25152.320094056002
-R&D,2050,25151.65442390438
-Serv gaux,2022,46415.36453024778
-Serv gaux,2023,46413.05122951878
-Serv gaux,2024,46410.73792878977
-Serv gaux,2025,46408.42462806076
-Serv gaux,2026,46406.11132733176
-Serv gaux,2027,46403.79802660276
-Serv gaux,2028,46401.48472587376
-Serv gaux,2029,46399.17142514474
-Serv gaux,2030,46396.85812441574
-Serv gaux,2031,46394.54482368674
-Serv gaux,2032,46392.231522957736
-Serv gaux,2033,46389.91822222873
-Serv gaux,2034,46387.60492149972
-Serv gaux,2035,46385.29162077072
-Serv gaux,2036,46382.978320041715
-Serv gaux,2037,46380.66501931271
-Serv gaux,2038,46378.351718583704
-Serv gaux,2039,46376.038417854696
-Serv gaux,2040,46373.725117125694
-Serv gaux,2041,46371.41181639669
-Serv gaux,2042,46369.09851566768
-Serv gaux,2043,46366.785214938674
-Serv gaux,2044,46364.47191420967
-Serv gaux,2045,46362.15861348067
-Serv gaux,2046,46359.84531275167
-Serv gaux,2047,46357.53201202266
-Serv gaux,2048,46355.21871129365
-Serv gaux,2049,46352.90541056465
-Serv gaux,2050,46350.59210983565
-Activités périphériques,2022,426160.9106717131
-Activités périphériques,2023,429609.00352317776
-Activités périphériques,2024,433057.0963746433
-Activités périphériques,2025,436505.1892261089
-Activités périphériques,2026,439953.28207757446
-Activités périphériques,2027,443401.3749290391
-Activités périphériques,2028,446849.46778050467
-Activités périphériques,2029,450297.56063197023
-Activités périphériques,2030,453745.6534834349
-Activités périphériques,2031,457193.74633490044
-Activités périphériques,2032,460641.839186366
-Activités périphériques,2033,464089.93203783064
-Activités périphériques,2034,467538.0248892962
-Activités périphériques,2035,470986.1177407618
-Activités périphériques,2036,474434.21059222735
-Activités périphériques,2037,477882.303443692
-Activités périphériques,2038,481330.39629515755
-Activités périphériques,2039,484778.4891466231
-Activités périphériques,2040,488226.58199808776
-Activités périphériques,2041,491674.6748495533
-Activités périphériques,2042,495122.7677010189
-Activités périphériques,2043,498570.86055248353
-Activités périphériques,2044,502018.9534039491
-Activités périphériques,2045,505467.04625541467
-Activités périphériques,2046,508915.13910688023
-Activités périphériques,2047,512363.23195834487
-Activités périphériques,2048,515811.32480981044
-Activités périphériques,2049,519259.417661276
-Activités périphériques,2050,522707.51051274064
-Gestion des espaces verts,2022,36587.90126821542
-Gestion des espaces verts,2023,37752.850008739195
-Gestion des espaces verts,2024,38917.798749263435
-Gestion des espaces verts,2025,40082.74748978721
-Gestion des espaces verts,2026,41247.69623031098
-Gestion des espaces verts,2027,42412.64497083522
-Gestion des espaces verts,2028,43577.593711359
-Gestion des espaces verts,2029,44742.54245188324
-Gestion des espaces verts,2030,45907.49119240701
-Gestion des espaces verts,2031,47072.43993293125
-Gestion des espaces verts,2032,48237.388673455025
-Gestion des espaces verts,2033,49402.3374139788
-Gestion des espaces verts,2034,50567.28615450304
-Gestion des espaces verts,2035,51732.23489502681
-Gestion des espaces verts,2036,52897.18363555105
-Gestion des espaces verts,2037,54062.13237607483
-Gestion des espaces verts,2038,55227.08111659907
-Gestion des espaces verts,2039,56392.02985712284
-Gestion des espaces verts,2040,57556.97859764708
-Gestion des espaces verts,2041,58721.927338170855
-Gestion des espaces verts,2042,59886.87607869463
-Gestion des espaces verts,2043,61051.82481921887
-Gestion des espaces verts,2044,62216.77355974264
-Gestion des espaces verts,2045,63381.72230026688
-Gestion des espaces verts,2046,64546.67104079066
-Gestion des espaces verts,2047,65711.61978131489
-Gestion des espaces verts,2048,66876.56852183866
-Gestion des espaces verts,2049,68041.51726236244
-Gestion des espaces verts,2050,69206.46600288668
-Transports longue distance,2022,284778.942561274
-Transports longue distance,2023,286007.8872837299
-Transports longue distance,2024,287236.83200618584
-Transports longue distance,2025,288465.77672864177
-Transports longue distance,2026,289694.7214510977
-Transports longue distance,2027,290923.66617355315
-Transports longue distance,2028,292152.6108960091
-Transports longue distance,2029,293381.555618465
-Transports longue distance,2030,294610.50034092047
-Transports longue distance,2031,295839.4450633764
-Transports longue distance,2032,297068.3897858323
-Transports longue distance,2033,298297.33450828824
-Transports longue distance,2034,299526.27923074417
-Transports longue distance,2035,300755.22395319963
-Transports longue distance,2036,301984.16867565556
-Transports longue distance,2037,303213.1133981115
-Transports longue distance,2038,304442.05812056694
-Transports longue distance,2039,305671.00284302287
-Transports longue distance,2040,306899.9475654788
-Transports longue distance,2041,308128.8922879347
-Transports longue distance,2042,309357.83701039065
-Transports longue distance,2043,310586.7817328461
-Transports longue distance,2044,311815.72645530204
-Transports longue distance,2045,313044.67117775796
-Transports longue distance,2046,314273.6159002134
-Transports longue distance,2047,315502.56062266935
-Transports longue distance,2048,316731.5053451253
-Transports longue distance,2049,317960.4500675812
-Transports longue distance,2050,319189.3947900371
-Transports urbains et suburbains,2022,104793.11731610516
-Transports urbains et suburbains,2023,105847.2091487285
-Transports urbains et suburbains,2024,106901.30098135139
-Transports urbains et suburbains,2025,107955.39281397474
-Transports urbains et suburbains,2026,109009.4846465981
-Transports urbains et suburbains,2027,110063.57647922098
-Transports urbains et suburbains,2028,111117.66831184433
-Transports urbains et suburbains,2029,112171.76014446768
-Transports urbains et suburbains,2030,113225.85197709057
-Transports urbains et suburbains,2031,114279.94380971392
-Transports urbains et suburbains,2032,115334.03564233727
-Transports urbains et suburbains,2033,116388.12747496016
-Transports urbains et suburbains,2034,117442.21930758351
-Transports urbains et suburbains,2035,118496.31114020686
-Transports urbains et suburbains,2036,119550.40297282975
-Transports urbains et suburbains,2037,120604.4948054531
-Transports urbains et suburbains,2038,121658.58663807598
-Transports urbains et suburbains,2039,122712.67847069933
-Transports urbains et suburbains,2040,123766.77030332269
-Transports urbains et suburbains,2041,124820.86213594557
-Transports urbains et suburbains,2042,125874.95396856892
-Transports urbains et suburbains,2043,126929.04580119227
-Transports urbains et suburbains,2044,127983.13763381516
-Transports urbains et suburbains,2045,129037.22946643851
-Transports urbains et suburbains,2046,130091.32129906186
-Transports urbains et suburbains,2047,131145.41313168473
-Transports urbains et suburbains,2048,132199.5049643081
-Transports urbains et suburbains,2049,133253.59679693144
-Transports urbains et suburbains,2050,134307.68862955432
-Protection des sols et des masses d'eau,2022,146442.91133876675
-Protection des sols et des masses d'eau,2023,154496.49951726914
-Protection des sols et des masses d'eau,2024,162550.08769577154
-Protection des sols et des masses d'eau,2025,170603.67587427393
-Protection des sols et des masses d'eau,2026,178657.26405277633
-Protection des sols et des masses d'eau,2027,186710.85223127872
-Protection des sols et des masses d'eau,2028,194764.44040978112
-Protection des sols et des masses d'eau,2029,202818.02858828352
-Protection des sols et des masses d'eau,2030,210871.6167667859
-Protection des sols et des masses d'eau,2031,218925.2049452883
-Protection des sols et des masses d'eau,2032,226978.7931237907
-Protection des sols et des masses d'eau,2033,235032.3813022931
-Protection des sols et des masses d'eau,2034,243085.9694807955
-Protection des sols et des masses d'eau,2035,251139.5576592979
-Protection des sols et des masses d'eau,2036,259193.1458378003
-Protection des sols et des masses d'eau,2037,267246.7340163027
-Protection des sols et des masses d'eau,2038,275300.3221948051
-Protection des sols et des masses d'eau,2039,283353.9103733075
-Protection des sols et des masses d'eau,2040,291407.49855180987
-Protection des sols et des masses d'eau,2041,299461.08673031226
-Protection des sols et des masses d'eau,2042,307514.67490881466
-Protection des sols et des masses d'eau,2043,315568.26308731706
-Protection des sols et des masses d'eau,2044,323621.85126581945
-Protection des sols et des masses d'eau,2045,331675.43944432185
-Protection des sols et des masses d'eau,2046,339729.02762282424
-Protection des sols et des masses d'eau,2047,347782.61580132664
-Protection des sols et des masses d'eau,2048,355836.20397982904
-Protection des sols et des masses d'eau,2049,363889.79215833143
-Protection des sols et des masses d'eau,2050,371943.3803368338
-Maîtrise de l'énergie,2022,118632.76199939071
-Maîtrise de l'énergie,2023,120311.68264692852
-Maîtrise de l'énergie,2024,121990.60329446585
-Maîtrise de l'énergie,2025,123669.52394200365
-Maîtrise de l'énergie,2026,125348.44458954145
-Maîtrise de l'énergie,2027,127027.36523707926
-Maîtrise de l'énergie,2028,128706.28588461659
-Maîtrise de l'énergie,2029,130385.20653215439
-Maîtrise de l'énergie,2030,132064.1271796922
-Maîtrise de l'énergie,2031,133743.04782723
-Maîtrise de l'énergie,2032,135421.9684747678
-Maîtrise de l'énergie,2033,137100.88912230515
-Maîtrise de l'énergie,2034,138779.80976984295
-Maîtrise de l'énergie,2035,140458.73041738075
-Maîtrise de l'énergie,2036,142137.65106491855
-Maîtrise de l'énergie,2037,143816.5717124559
-Maîtrise de l'énergie,2038,145495.4923599937
-Maîtrise de l'énergie,2039,147174.4130075315
-Maîtrise de l'énergie,2040,148853.3336550693
-Maîtrise de l'énergie,2041,150532.2543026071
-Maîtrise de l'énergie,2042,152211.17495014443
-Maîtrise de l'énergie,2043,153890.09559768223
-Maîtrise de l'énergie,2044,155569.01624522003
-Maîtrise de l'énergie,2045,157247.93689275783
-Maîtrise de l'énergie,2046,158926.85754029517
-Maîtrise de l'énergie,2047,160605.77818783297
-Maîtrise de l'énergie,2048,162284.69883537077
-Maîtrise de l'énergie,2049,163963.61948290857
-Maîtrise de l'énergie,2050,165642.54013044637
-Energies renouvelables,2022,90490.22367677625
-Energies renouvelables,2023,92531.70111939378
-Energies renouvelables,2024,94573.17856201131
-Energies renouvelables,2025,96614.6560046293
-Energies renouvelables,2026,98656.13344724683
-Energies renouvelables,2027,100697.61088986436
-Energies renouvelables,2028,102739.08833248189
-Energies renouvelables,2029,104780.56577509941
-Energies renouvelables,2030,106822.04321771694
-Energies renouvelables,2031,108863.52066033494
-Energies renouvelables,2032,110904.99810295246
-Energies renouvelables,2033,112946.47554556999
-Energies renouvelables,2034,114987.95298818752
-Energies renouvelables,2035,117029.43043080505
-Energies renouvelables,2036,119070.90787342258
-Energies renouvelables,2037,121112.3853160401
-Energies renouvelables,2038,123153.8627586581
-Energies renouvelables,2039,125195.34020127563
-Energies renouvelables,2040,127236.81764389316
-Energies renouvelables,2041,129278.29508651068
-Energies renouvelables,2042,131319.7725291282
-Energies renouvelables,2043,133361.24997174574
-Energies renouvelables,2044,135402.72741436327
-Energies renouvelables,2045,137444.20485698126
-Energies renouvelables,2046,139485.6822995988
-Energies renouvelables,2047,141527.15974221632
-Energies renouvelables,2048,143568.63718483385
-Energies renouvelables,2049,145610.11462745137
-Energies renouvelables,2050,147651.5920700689
-Collecte et traitement des déchets,2022,104015.74495759711
-Collecte et traitement des déchets,2023,104868.8442852766
-Collecte et traitement des déchets,2024,105721.94361295586
-Collecte et traitement des déchets,2025,106575.04294063535
-Collecte et traitement des déchets,2026,107428.14226831461
-Collecte et traitement des déchets,2027,108281.2415959941
-Collecte et traitement des déchets,2028,109134.34092367336
-Collecte et traitement des déchets,2029,109987.44025135285
-Collecte et traitement des déchets,2030,110840.5395790321
-Collecte et traitement des déchets,2031,111693.6389067116
-Collecte et traitement des déchets,2032,112546.73823439085
-Collecte et traitement des déchets,2033,113399.83756207034
-Collecte et traitement des déchets,2034,114252.9368897496
-Collecte et traitement des déchets,2035,115106.0362174291
-Collecte et traitement des déchets,2036,115959.13554510835
-Collecte et traitement des déchets,2037,116812.23487278784
-Collecte et traitement des déchets,2038,117665.3342004671
-Collecte et traitement des déchets,2039,118518.43352814659
-Collecte et traitement des déchets,2040,119371.53285582585
-Collecte et traitement des déchets,2041,120224.63218350534
-Collecte et traitement des déchets,2042,121077.7315111846
-Collecte et traitement des déchets,2043,121930.83083886409
-Collecte et traitement des déchets,2044,122783.93016654334
-Collecte et traitement des déchets,2045,123637.02949422284
-Collecte et traitement des déchets,2046,124490.1288219021
-Collecte et traitement des déchets,2047,125343.22814958158
-Collecte et traitement des déchets,2048,126196.32747726084
-Collecte et traitement des déchets,2049,127049.4268049401
-Collecte et traitement des déchets,2050,127902.52613261959
-Gestion des eaux usées,2022,53406.25197724381
-Gestion des eaux usées,2023,52982.43795516214
-Gestion des eaux usées,2024,52558.62393308035
-Gestion des eaux usées,2025,52134.80991099868
-Gestion des eaux usées,2026,51710.99588891689
-Gestion des eaux usées,2027,51287.18186683522
-Gestion des eaux usées,2028,50863.36784475343
-Gestion des eaux usées,2029,50439.55382267176
-Gestion des eaux usées,2030,50015.739800589974
-Gestion des eaux usées,2031,49591.9257785083
-Gestion des eaux usées,2032,49168.111756426515
-Gestion des eaux usées,2033,48744.297734344844
-Gestion des eaux usées,2034,48320.483712263056
-Gestion des eaux usées,2035,47896.669690181385
-Gestion des eaux usées,2036,47472.8556680996
-Gestion des eaux usées,2037,47049.041646017926
-Gestion des eaux usées,2038,46625.22762393614
-Gestion des eaux usées,2039,46201.41360185447
-Gestion des eaux usées,2040,45777.59957977268
-Gestion des eaux usées,2041,45353.78555769101
-Gestion des eaux usées,2042,44929.97153560922
-Gestion des eaux usées,2043,44506.15751352755
-Gestion des eaux usées,2044,44082.34349144576
-Gestion des eaux usées,2045,43658.52946936409
-Gestion des eaux usées,2046,43234.7154472823
-Gestion des eaux usées,2047,42810.90142520063
-Gestion des eaux usées,2048,42387.08740311884
-Gestion des eaux usées,2049,41963.273381037056
-Gestion des eaux usées,2050,41539.459358955384
-Administration générale relative à l'environnement,2022,46415.36453024778
-Administration générale relative à l'environnement,2023,46413.05122951878
-Administration générale relative à l'environnement,2024,46410.73792878977
-Administration générale relative à l'environnement,2025,46408.42462806076
-Administration générale relative à l'environnement,2026,46406.11132733176
-Administration générale relative à l'environnement,2027,46403.79802660276
-Administration générale relative à l'environnement,2028,46401.48472587376
-Administration générale relative à l'environnement,2029,46399.17142514474
-Administration générale relative à l'environnement,2030,46396.85812441574
-Administration générale relative à l'environnement,2031,46394.54482368674
-Administration générale relative à l'environnement,2032,46392.231522957736
-Administration générale relative à l'environnement,2033,46389.91822222873
-Administration générale relative à l'environnement,2034,46387.60492149972
-Administration générale relative à l'environnement,2035,46385.29162077072
-Administration générale relative à l'environnement,2036,46382.978320041715
-Administration générale relative à l'environnement,2037,46380.66501931271
-Administration générale relative à l'environnement,2038,46378.351718583704
-Administration générale relative à l'environnement,2039,46376.038417854696
-Administration générale relative à l'environnement,2040,46373.725117125694
-Administration générale relative à l'environnement,2041,46371.41181639669
-Administration générale relative à l'environnement,2042,46369.09851566768
-Administration générale relative à l'environnement,2043,46366.785214938674
-Administration générale relative à l'environnement,2044,46364.47191420967
-Administration générale relative à l'environnement,2045,46362.15861348067
-Administration générale relative à l'environnement,2046,46359.84531275167
-Administration générale relative à l'environnement,2047,46357.53201202266
-Administration générale relative à l'environnement,2048,46355.21871129365
-Administration générale relative à l'environnement,2049,46352.90541056465
-Administration générale relative à l'environnement,2050,46350.59210983565
-Récupération de matériaux de recyclage,2022,30806.04743319416
-Récupération de matériaux de recyclage,2023,31282.75851952463
-Récupération de matériaux de recyclage,2024,31759.469605855214
-Récupération de matériaux de recyclage,2025,32236.1806921858
-Récupération de matériaux de recyclage,2026,32712.89177851627
-Récupération de matériaux de recyclage,2027,33189.60286484686
-Récupération de matériaux de recyclage,2028,33666.313951177326
-Récupération de matériaux de recyclage,2029,34143.02503750791
-Récupération de matériaux de recyclage,2030,34619.7361238385
-Récupération de matériaux de recyclage,2031,35096.44721016897
-Récupération de matériaux de recyclage,2032,35573.158296499554
-Récupération de matériaux de recyclage,2033,36049.869382830024
-Récupération de matériaux de recyclage,2034,36526.58046916061
-Récupération de matériaux de recyclage,2035,37003.29155549108
-Récupération de matériaux de recyclage,2036,37480.002641821666
-Récupération de matériaux de recyclage,2037,37956.71372815225
-Récupération de matériaux de recyclage,2038,38433.42481448272
-Récupération de matériaux de recyclage,2039,38910.13590081331
-Récupération de matériaux de recyclage,2040,39386.84698714378
-Récupération de matériaux de recyclage,2041,39863.55807347436
-Récupération de matériaux de recyclage,2042,40340.26915980495
-Récupération de matériaux de recyclage,2043,40816.98024613542
-Récupération de matériaux de recyclage,2044,41293.691332466005
-Récupération de matériaux de recyclage,2045,41770.402418796475
-Récupération de matériaux de recyclage,2046,42247.11350512706
-Récupération de matériaux de recyclage,2047,42723.82459145753
-Récupération de matériaux de recyclage,2048,43200.53567778812
-Récupération de matériaux de recyclage,2049,43677.2467641187
-Récupération de matériaux de recyclage,2050,44153.95785044917
-Protection de la biodiversité et des paysages,2022,31643.408368581728
-Protection de la biodiversité et des paysages,2023,32303.881865344996
-Protection de la biodiversité et des paysages,2024,32964.35536210827
-Protection de la biodiversité et des paysages,2025,33624.82885887154
-Protection de la biodiversité et des paysages,2026,34285.30235563457
-Protection de la biodiversité et des paysages,2027,34945.77585239784
-Protection de la biodiversité et des paysages,2028,35606.24934916111
-Protection de la biodiversité et des paysages,2029,36266.72284592438
-Protection de la biodiversité et des paysages,2030,36927.19634268765
-Protection de la biodiversité et des paysages,2031,37587.669839450915
-Protection de la biodiversité et des paysages,2032,38248.14333621395
-Protection de la biodiversité et des paysages,2033,38908.61683297722
-Protection de la biodiversité et des paysages,2034,39569.09032974049
-Protection de la biodiversité et des paysages,2035,40229.563826503756
-Protection de la biodiversité et des paysages,2036,40890.037323267024
-Protection de la biodiversité et des paysages,2037,41550.51082003029
-Protection de la biodiversité et des paysages,2038,42210.98431679356
-Protection de la biodiversité et des paysages,2039,42871.4578135566
-Protection de la biodiversité et des paysages,2040,43531.931310319866
-Protection de la biodiversité et des paysages,2041,44192.404807083134
-Protection de la biodiversité et des paysages,2042,44852.8783038464
-Protection de la biodiversité et des paysages,2043,45513.35180060967
-Protection de la biodiversité et des paysages,2044,46173.82529737294
-Protection de la biodiversité et des paysages,2045,46834.298794135975
-Protection de la biodiversité et des paysages,2046,47494.772290899244
-Protection de la biodiversité et des paysages,2047,48155.24578766251
-Protection de la biodiversité et des paysages,2048,48815.71928442578
-Protection de la biodiversité et des paysages,2049,49476.19278118905
-Protection de la biodiversité et des paysages,2050,50136.66627795232
-R & D environnementale,2022,25170.293188149823
-R & D environnementale,2023,25169.6275179982
-R & D environnementale,2024,25168.961847846578
-R & D environnementale,2025,25168.296177694956
-R & D environnementale,2026,25167.630507543334
-R & D environnementale,2027,25166.964837391708
-R & D environnementale,2028,25166.299167240086
-R & D environnementale,2029,25165.633497088464
-R & D environnementale,2030,25164.967826936838
-R & D environnementale,2031,25164.302156785216
-R & D environnementale,2032,25163.636486633593
-R & D environnementale,2033,25162.97081648197
-R & D environnementale,2034,25162.30514633035
-R & D environnementale,2035,25161.639476178723
-R & D environnementale,2036,25160.9738060271
-R & D environnementale,2037,25160.30813587548
-R & D environnementale,2038,25159.642465723853
-R & D environnementale,2039,25158.97679557223
-R & D environnementale,2040,25158.31112542061
-R & D environnementale,2041,25157.645455268987
-R & D environnementale,2042,25156.979785117364
-R & D environnementale,2043,25156.31411496574
-R & D environnementale,2044,25155.648444814116
-R & D environnementale,2045,25154.982774662494
-R & D environnementale,2046,25154.31710451087
-R & D environnementale,2047,25153.651434359246
-R & D environnementale,2048,25152.985764207624
-R & D environnementale,2049,25152.320094056002
-R & D environnementale,2050,25151.65442390438
-Ingénierie environnementale,2022,12702.440885184156
-Ingénierie environnementale,2023,12768.947288922964
-Ingénierie environnementale,2024,12835.453692661742
-Ingénierie environnementale,2025,12901.96009640052
-Ingénierie environnementale,2026,12968.466500139299
-Ingénierie environnementale,2027,13034.972903878106
-Ingénierie environnementale,2028,13101.479307616884
-Ingénierie environnementale,2029,13167.985711355663
-Ingénierie environnementale,2030,13234.492115094441
-Ingénierie environnementale,2031,13300.998518833248
-Ingénierie environnementale,2032,13367.504922572027
-Ingénierie environnementale,2033,13434.011326310805
-Ingénierie environnementale,2034,13500.517730049583
-Ingénierie environnementale,2035,13567.02413378839
-Ingénierie environnementale,2036,13633.53053752717
-Ingénierie environnementale,2037,13700.036941265947
-Ingénierie environnementale,2038,13766.543345004726
-Ingénierie environnementale,2039,13833.049748743533
-Ingénierie environnementale,2040,13899.556152482312
-Ingénierie environnementale,2041,13966.06255622109
-Ingénierie environnementale,2042,14032.568959959868
-Ingénierie environnementale,2043,14099.075363698676
-Ingénierie environnementale,2044,14165.581767437454
-Ingénierie environnementale,2045,14232.088171176232
-Ingénierie environnementale,2046,14298.59457491501
-Ingénierie environnementale,2047,14365.100978653818
-Ingénierie environnementale,2048,14431.607382392596
-Ingénierie environnementale,2049,14498.113786131375
-Ingénierie environnementale,2050,14564.620189870182
-Protection de l'air extérieur,2022,10912.357006932538
-Protection de l'air extérieur,2023,11257.195084047433
-Protection de l'air extérieur,2024,11602.033161162328
-Protection de l'air extérieur,2025,11946.871238277223
-Protection de l'air extérieur,2026,12291.709315392118
-Protection de l'air extérieur,2027,12636.54739250713
-Protection de l'air extérieur,2028,12981.385469622024
-Protection de l'air extérieur,2029,13326.22354673692
-Protection de l'air extérieur,2030,13671.061623851814
-Protection de l'air extérieur,2031,14015.89970096671
-Protection de l'air extérieur,2032,14360.737778081604
-Protection de l'air extérieur,2033,14705.575855196616
-Protection de l'air extérieur,2034,15050.41393231151
-Protection de l'air extérieur,2035,15395.252009426405
-Protection de l'air extérieur,2036,15740.0900865413
-Protection de l'air extérieur,2037,16084.928163656195
-Protection de l'air extérieur,2038,16429.76624077109
-Protection de l'air extérieur,2039,16774.6043178861
-Protection de l'air extérieur,2040,17119.442395000995
-Protection de l'air extérieur,2041,17464.28047211589
-Protection de l'air extérieur,2042,17809.118549230785
-Protection de l'air extérieur,2043,18153.95662634568
-Protection de l'air extérieur,2044,18498.794703460575
-Protection de l'air extérieur,2045,18843.632780575586
-Protection de l'air extérieur,2046,19188.47085769048
-Protection de l'air extérieur,2047,19533.308934805376
-Protection de l'air extérieur,2048,19878.14701192027
-Protection de l'air extérieur,2049,20222.985089035166
-Protection de l'air extérieur,2050,20567.82316615006
-Gestion durable de la forêt,2022,10216.82725996405
-Gestion durable de la forêt,2023,10138.66137081638
-Gestion durable de la forêt,2024,10060.495481668682
-Gestion durable de la forêt,2025,9982.329592521013
-Gestion durable de la forêt,2026,9904.163703373315
-Gestion durable de la forêt,2027,9825.997814225646
-Gestion durable de la forêt,2028,9747.831925077948
-Gestion durable de la forêt,2029,9669.66603593025
-Gestion durable de la forêt,2030,9591.50014678258
-Gestion durable de la forêt,2031,9513.334257634882
-Gestion durable de la forêt,2032,9435.168368487213
-Gestion durable de la forêt,2033,9357.002479339515
-Gestion durable de la forêt,2034,9278.836590191846
-Gestion durable de la forêt,2035,9200.670701044148
-Gestion durable de la forêt,2036,9122.504811896479
-Gestion durable de la forêt,2037,9044.33892274878
-Gestion durable de la forêt,2038,8966.173033601111
-Gestion durable de la forêt,2039,8888.007144453413
-Gestion durable de la forêt,2040,8809.841255305715
-Gestion durable de la forêt,2041,8731.675366158046
-Gestion durable de la forêt,2042,8653.509477010348
-Gestion durable de la forêt,2043,8575.343587862679
-Gestion durable de la forêt,2044,8497.17769871498
-Gestion durable de la forêt,2045,8419.011809567312
-Gestion durable de la forêt,2046,8340.845920419613
-Gestion durable de la forêt,2047,8262.680031271944
-Gestion durable de la forêt,2048,8184.514142124246
-Gestion durable de la forêt,2049,8106.348252976548
-Gestion durable de la forêt,2050,8028.182363828879
-Lutte contre le bruit,2022,4249.487425908581
-Lutte contre le bruit,2023,4121.93336841073
-Lutte contre le bruit,2024,3994.3793109128787
-Lutte contre le bruit,2025,3866.8252534150274
-Lutte contre le bruit,2026,3739.271195917176
-Lutte contre le bruit,2027,3611.717138419325
-Lutte contre le bruit,2028,3484.1630809214444
-Lutte contre le bruit,2029,3356.609023423593
-Lutte contre le bruit,2030,3229.0549659257417
-Lutte contre le bruit,2031,3101.5009084278904
-Lutte contre le bruit,2032,2973.946850930039
-Lutte contre le bruit,2033,2846.392793432188
-Lutte contre le bruit,2034,2718.8387359343074
-Lutte contre le bruit,2035,2591.284678436456
-Lutte contre le bruit,2036,2463.7306209386047
-Lutte contre le bruit,2037,2336.1765634407534
-Lutte contre le bruit,2038,2208.622505942902
-Lutte contre le bruit,2039,2081.0684484450508
-Lutte contre le bruit,2040,1953.5143909471703
-Lutte contre le bruit,2041,1825.960333449319
-Lutte contre le bruit,2042,1698.4062759514677
-Lutte contre le bruit,2043,1570.8522184536164
-Lutte contre le bruit,2044,1443.298160955765
-Lutte contre le bruit,2045,1315.7441034579138
-Lutte contre le bruit,2046,1188.1900459600333
-Lutte contre le bruit,2047,1060.635988462182
-Lutte contre le bruit,2048,933.0819309643307
-Lutte contre le bruit,2049,805.5278734664794
-Lutte contre le bruit,2050,677.9738159686281
-Gestion des ressources en eau,2022,4330.292459339419
-Gestion des ressources en eau,2023,4335.598120584645
-Gestion des ressources en eau,2024,4340.90378182987
-Gestion des ressources en eau,2025,4346.209443075096
-Gestion des ressources en eau,2026,4351.515104320321
-Gestion des ressources en eau,2027,4356.820765565545
-Gestion des ressources en eau,2028,4362.126426810771
-Gestion des ressources en eau,2029,4367.432088055996
-Gestion des ressources en eau,2030,4372.73774930122
-Gestion des ressources en eau,2031,4378.043410546446
-Gestion des ressources en eau,2032,4383.349071791671
-Gestion des ressources en eau,2033,4388.654733036897
-Gestion des ressources en eau,2034,4393.960394282122
-Gestion des ressources en eau,2035,4399.266055527346
-Gestion des ressources en eau,2036,4404.571716772572
-Gestion des ressources en eau,2037,4409.877378017797
-Gestion des ressources en eau,2038,4415.183039263021
-Gestion des ressources en eau,2039,4420.488700508246
-Gestion des ressources en eau,2040,4425.794361753472
-Gestion des ressources en eau,2041,4431.100022998698
-Gestion des ressources en eau,2042,4436.405684243923
-Gestion des ressources en eau,2043,4441.711345489147
-Gestion des ressources en eau,2044,4447.017006734372
-Gestion des ressources en eau,2045,4452.322667979598
-Gestion des ressources en eau,2046,4457.628329224822
-Gestion des ressources en eau,2047,4462.933990470047
-Gestion des ressources en eau,2048,4468.239651715273
-Gestion des ressources en eau,2049,4473.545312960498
-Gestion des ressources en eau,2050,4478.850974205724
-Protection contre les radiations,2022,3074.42407978467
-Protection contre les radiations,2023,3023.4996713749983
-Protection contre les radiations,2024,2972.575262965341
-Protection contre les radiations,2025,2921.650854555684
-Protection contre les radiations,2026,2870.726446146012
-Protection contre les radiations,2027,2819.802037736355
-Protection contre les radiations,2028,2768.8776293266833
-Protection contre les radiations,2029,2717.953220917026
-Protection contre les radiations,2030,2667.0288125073544
-Protection contre les radiations,2031,2616.104404097697
-Protection contre les radiations,2032,2565.17999568804
-Protection contre les radiations,2033,2514.2555872783682
-Protection contre les radiations,2034,2463.331178868711
-Protection contre les radiations,2035,2412.4067704590393
-Protection contre les radiations,2036,2361.482362049382
-Protection contre les radiations,2037,2310.557953639725
-Protection contre les radiations,2038,2259.633545230053
-Protection contre les radiations,2039,2208.709136820396
-Protection contre les radiations,2040,2157.7847284107243
-Protection contre les radiations,2041,2106.860320001067
-Protection contre les radiations,2042,2055.9359115913953
-Protection contre les radiations,2043,2005.0115031817381
-Protection contre les radiations,2044,1954.087094772081
-Protection contre les radiations,2045,1903.1626863624092
-Protection contre les radiations,2046,1852.238277952752
-Protection contre les radiations,2047,1801.3138695430803
-Protection contre les radiations,2048,1750.389461133423
-Protection contre les radiations,2049,1699.465052723766
-Protection contre les radiations,2050,1648.5406443140942
-"Agriculture, sylviculture et pêch",2022,1.6192857142858552
-"Agriculture, sylviculture et pêch",2023,1.6192857142858554
-"Agriculture, sylviculture et pêch",2024,1.6192857142858554
-"Agriculture, sylviculture et pêch",2025,1.6192857142858554
-"Agriculture, sylviculture et pêch",2026,1.6192857142858557
-"Agriculture, sylviculture et pêch",2027,1.6192857142858557
-"Agriculture, sylviculture et pêch",2028,1.6192857142858559
-"Agriculture, sylviculture et pêch",2029,1.6192857142858559
-"Agriculture, sylviculture et pêch",2030,1.6192857142858559
-"Agriculture, sylviculture et pêch",2031,1.619285714285856
-"Agriculture, sylviculture et pêch",2032,1.619285714285856
-"Agriculture, sylviculture et pêch",2033,1.619285714285856
-"Agriculture, sylviculture et pêch",2034,1.6192857142858563
-"Agriculture, sylviculture et pêch",2035,1.6192857142858563
-"Agriculture, sylviculture et pêch",2036,1.6192857142858563
-"Agriculture, sylviculture et pêch",2037,1.6192857142858565
-"Agriculture, sylviculture et pêch",2038,1.6192857142858565
-"Agriculture, sylviculture et pêch",2039,1.6192857142858568
-"Agriculture, sylviculture et pêch",2040,1.6192857142858568
-"Agriculture, sylviculture et pêch",2041,1.6192857142858568
-"Agriculture, sylviculture et pêch",2042,1.619285714285857
-"Agriculture, sylviculture et pêch",2043,1.619285714285857
-"Agriculture, sylviculture et pêch",2044,1.6192857142858572
-"Agriculture, sylviculture et pêch",2045,1.6192857142858572
-"Agriculture, sylviculture et pêch",2046,1.6192857142858572
-"Agriculture, sylviculture et pêch",2047,1.6192857142858574
-"Agriculture, sylviculture et pêch",2048,1.6192857142858574
-"Agriculture, sylviculture et pêch",2049,1.6192857142858574
-"Agriculture, sylviculture et pêch",2050,1.6192857142858577
-Industrie (sauf construction),2022,18.262642093665207
-Industrie (sauf construction),2023,18.11985151567775
-Industrie (sauf construction),2024,17.977060937690297
-Industrie (sauf construction),2025,17.834270359702785
-Industrie (sauf construction),2026,17.69147978171533
-Industrie (sauf construction),2027,17.548689203727875
-Industrie (sauf construction),2028,17.40589862574042
-Industrie (sauf construction),2029,17.263108047752908
-Industrie (sauf construction),2030,17.120317469765453
-Industrie (sauf construction),2031,16.977526891778
-Industrie (sauf construction),2032,16.834736313790543
-Industrie (sauf construction),2033,16.69194573580309
-Industrie (sauf construction),2034,16.549155157815576
-Industrie (sauf construction),2035,16.40636457982812
-Industrie (sauf construction),2036,16.263574001840666
-Industrie (sauf construction),2037,16.12078342385321
-Industrie (sauf construction),2038,15.977992845865701
-Industrie (sauf construction),2039,15.835202267878246
-Industrie (sauf construction),2040,15.692411689890791
-Industrie (sauf construction),2041,15.549621111903337
-Industrie (sauf construction),2042,15.406830533915825
-Industrie (sauf construction),2043,15.26403995592837
-Industrie (sauf construction),2044,15.121249377940915
-Industrie (sauf construction),2045,14.97845879995346
-Industrie (sauf construction),2046,14.835668221965948
-Industrie (sauf construction),2047,14.692877643978493
-Industrie (sauf construction),2048,14.550087065991038
-Industrie (sauf construction),2049,14.407296488003583
-Industrie (sauf construction),2050,14.264505910016128
-Services,2022,80.121101974207
-Services,2023,80.26439176124441
-Services,2024,80.40768154828183
-Services,2025,80.55097133531925
-Services,2026,80.69426112235666
-Services,2027,80.83755090939408
-Services,2028,80.9808406964315
-Services,2029,81.12413048346897
-Services,2030,81.26742027050639
-Services,2031,81.41071005754381
-Services,2032,81.55399984458123
-Services,2033,81.69728963161864
-Services,2034,81.84057941865606
-Services,2035,81.98386920569348
-Services,2036,82.1271589927309
-Services,2037,82.27044877976832
-Services,2038,82.41373856680573
-Services,2039,82.55702835384315
-Services,2040,82.70031814088057
-Services,2041,82.84360792791799
-Services,2042,82.98689771495546
-Services,2043,83.13018750199288
-Services,2044,83.2734772890303
-Services,2045,83.41676707606771
-Services,2046,83.56005686310513
-Services,2047,83.70334665014255
-Services,2048,83.84663643717997
-Services,2049,83.98992622421738
-Services,2050,84.1332160112548
+Eco-activités,2022,633050.6973039671
+Eco-activités,2023,638620.4378968771
+Eco-activités,2024,644190.178489787
+Eco-activités,2025,649759.919082697
+Eco-activités,2026,655329.659675607
+Eco-activités,2027,660899.400268517
+Eco-activités,2028,666469.140861427
+Eco-activités,2029,672038.8814543369
+Eco-activités,2030,677608.6220472469
+Eco-activités,2031,683178.362640155
+Eco-activités,2032,688748.103233065
+Eco-activités,2033,694317.843825975
+Eco-activités,2034,699887.584418885
+Eco-activités,2035,705457.3250117949
+Eco-activités,2036,711027.0656047049
+Eco-activités,2037,716596.8061976149
+Eco-activités,2038,722166.5467905249
+Eco-activités,2039,727736.2873834348
+Eco-activités,2040,733306.0279763448
+Eco-activités,2041,738875.7685692548
+Eco-activités,2042,744445.5091621648
+Eco-activités,2043,750015.2497550729
+Eco-activités,2044,755584.9903479828
+Eco-activités,2045,761154.7309408928
+Eco-activités,2046,766724.4715338028
+Eco-activités,2047,772294.2121267128
+Eco-activités,2048,777863.9527196228
+Eco-activités,2049,783433.6933125327
+Eco-activités,2050,789003.4339054427
+Protection de l'environnement,2022,342711.39081146906
+Protection de l'environnement,2023,350550.01434823463
+Protection de l'environnement,2024,358388.6378850002
+Protection de l'environnement,2025,366227.2614217658
+Protection de l'environnement,2026,374065.88495853136
+Protection de l'environnement,2027,381904.50849529693
+Protection de l'environnement,2028,389743.1320320625
+Protection de l'environnement,2029,397581.7555688281
+Protection de l'environnement,2030,405420.37910559366
+Protection de l'environnement,2031,413259.00264235924
+Protection de l'environnement,2032,421097.6261791248
+Protection de l'environnement,2033,428936.2497158885
+Protection de l'environnement,2034,436774.8732526541
+Protection de l'environnement,2035,444613.4967894197
+Protection de l'environnement,2036,452452.12032618525
+Protection de l'environnement,2037,460290.7438629508
+Protection de l'environnement,2038,468129.3673997164
+Protection de l'environnement,2039,475967.990936482
+Protection de l'environnement,2040,483806.61447324755
+Protection de l'environnement,2041,491645.2380100131
+Protection de l'environnement,2042,499483.8615467787
+Protection de l'environnement,2043,507322.4850835443
+Protection de l'environnement,2044,515161.10862030985
+Protection de l'environnement,2045,522999.7321570754
+Protection de l'environnement,2046,530838.355693841
+Protection de l'environnement,2047,538676.9792306066
+Protection de l'environnement,2048,546515.6027673722
+Protection de l'environnement,2049,554354.2263041377
+Protection de l'environnement,2050,562192.8498409033
+Air,2022,11209.976955876748
+Air,2023,11594.497692850713
+Air,2024,11979.018429824679
+Air,2025,12363.539166798644
+Air,2026,12748.059903772493
+Air,2027,13132.580640746459
+Air,2028,13517.101377720424
+Air,2029,13901.62211469439
+Air,2030,14286.142851668355
+Air,2031,14670.663588642205
+Air,2032,15055.18432561617
+Air,2033,15439.705062590136
+Air,2034,15824.225799564101
+Air,2035,16208.746536538067
+Air,2036,16593.267273511916
+Air,2037,16977.78801048588
+Air,2038,17362.308747459847
+Air,2039,17746.829484433812
+Air,2040,18131.350221407778
+Air,2041,18515.870958381627
+Air,2042,18900.391695355593
+Air,2043,19284.91243232956
+Air,2044,19669.433169303524
+Air,2045,20053.95390627749
+Air,2046,20438.47464325134
+Air,2047,20822.995380225304
+Air,2048,21207.51611719927
+Air,2049,21592.036854173235
+Air,2050,21976.5575911472
+Eaux_usées,2022,52127.2930758469
+Eaux_usées,2023,51532.95120024534
+Eaux_usées,2024,50938.60932464378
+Eaux_usées,2025,50344.26744904222
+Eaux_usées,2026,49749.92557344066
+Eaux_usées,2027,49155.5836978391
+Eaux_usées,2028,48561.241822237775
+Eaux_usées,2029,47966.899946636215
+Eaux_usées,2030,47372.558071034655
+Eaux_usées,2031,46778.216195433095
+Eaux_usées,2032,46183.874319831535
+Eaux_usées,2033,45589.532444229975
+Eaux_usées,2034,44995.190568628415
+Eaux_usées,2035,44400.848693026855
+Eaux_usées,2036,43806.50681742553
+Eaux_usées,2037,43212.16494182397
+Eaux_usées,2038,42617.82306622241
+Eaux_usées,2039,42023.48119062085
+Eaux_usées,2040,41429.13931501929
+Eaux_usées,2041,40834.79743941773
+Eaux_usées,2042,40240.45556381617
+Eaux_usées,2043,39646.11368821461
+Eaux_usées,2044,39051.77181261328
+Eaux_usées,2045,38457.42993701172
+Eaux_usées,2046,37863.08806141016
+Eaux_usées,2047,37268.7461858086
+Eaux_usées,2048,36674.40431020704
+Eaux_usées,2049,36080.06243460548
+Eaux_usées,2050,35485.72055900392
+Déchets,2022,103168.84502971244
+Déchets,2023,103909.02436700721
+Déchets,2024,104649.20370430198
+Déchets,2025,105389.38304159675
+Déchets,2026,106129.56237889153
+Déchets,2027,106869.7417161863
+Déchets,2028,107609.9210534813
+Déchets,2029,108350.10039077608
+Déchets,2030,109090.27972807085
+Déchets,2031,109830.45906536562
+Déchets,2032,110570.63840266039
+Déchets,2033,111310.81773995516
+Déchets,2034,112050.99707724994
+Déchets,2035,112791.17641454471
+Déchets,2036,113531.35575183948
+Déchets,2037,114271.53508913449
+Déchets,2038,115011.71442642926
+Déchets,2039,115751.89376372403
+Déchets,2040,116492.0731010188
+Déchets,2041,117232.25243831358
+Déchets,2042,117972.43177560835
+Déchets,2043,118712.61111290312
+Déchets,2044,119452.79045019812
+Déchets,2045,120192.9697874929
+Déchets,2046,120933.14912478767
+Déchets,2047,121673.32846208244
+Déchets,2048,122413.50779937721
+Déchets,2049,123153.68713667199
+Déchets,2050,123893.86647396676
+Déchets_radio,2022,2558.6244460930866
+Déchets_radio,2023,2438.926753191201
+Déchets_radio,2024,2319.2290602892863
+Déchets_radio,2025,2199.5313673874007
+Déchets_radio,2026,2079.833674485515
+Déchets_radio,2027,1960.1359815836004
+Déchets_radio,2028,1840.4382886817148
+Déchets_radio,2029,1720.7405957798292
+Déchets_radio,2030,1601.0429028779145
+Déchets_radio,2031,1481.3452099760289
+Déchets_radio,2032,1361.6475170741141
+Déchets_radio,2033,1241.9498241722285
+Déchets_radio,2034,1122.252131270343
+Déchets_radio,2035,1002.5544383684282
+Déchets_radio,2036,882.8567454665426
+Déchets_radio,2037,763.1590525646279
+Déchets_radio,2038,643.4613596627423
+Déchets_radio,2039,523.7636667608567
+Déchets_radio,2040,404.065973858942
+Déchets_radio,2041,284.3682809570564
+Déchets_radio,2042,164.6705880551417
+Déchets_radio,2043,44.972895153256104
+Déchets_radio,2044,-74.7247977486295
+Déchets_radio,2045,-194.4224906505442
+Déchets_radio,2046,-314.1201835524298
+Déchets_radio,2047,-433.8178764543445
+Déchets_radio,2048,-553.5155693562301
+Déchets_radio,2049,-673.2132622581157
+Déchets_radio,2050,-792.9109551600304
+Sols et masses d'eau,2022,139150.55456200292
+Sols et masses d'eau,2023,146231.8285036036
+Sols et masses d'eau,2024,153313.1024452043
+Sols et masses d'eau,2025,160394.376386805
+Sols et masses d'eau,2026,167475.65032840383
+Sols et masses d'eau,2027,174556.92427000453
+Sols et masses d'eau,2028,181638.19821160522
+Sols et masses d'eau,2029,188719.47215320592
+Sols et masses d'eau,2030,195800.74609480475
+Sols et masses d'eau,2031,202882.02003640545
+Sols et masses d'eau,2032,209963.29397800614
+Sols et masses d'eau,2033,217044.56791960684
+Sols et masses d'eau,2034,224125.84186120567
+Sols et masses d'eau,2035,231207.11580280637
+Sols et masses d'eau,2036,238288.38974440706
+Sols et masses d'eau,2037,245369.66368600776
+Sols et masses d'eau,2038,252450.9376276066
+Sols et masses d'eau,2039,259532.21156920728
+Sols et masses d'eau,2040,266613.48551080795
+Sols et masses d'eau,2041,273694.75945240865
+Sols et masses d'eau,2042,280776.0333940075
+Sols et masses d'eau,2043,287857.3073356082
+Sols et masses d'eau,2044,294938.58127720887
+Sols et masses d'eau,2045,302019.85521880956
+Sols et masses d'eau,2046,309101.1291604084
+Sols et masses d'eau,2047,316182.4031020091
+Sols et masses d'eau,2048,323263.6770436098
+Sols et masses d'eau,2049,330344.9509852105
+Sols et masses d'eau,2050,337426.2249268112
+Bruit,2022,4216.253698490627
+Bruit,2023,4084.268477336978
+Bruit,2024,3952.283256183387
+Bruit,2025,3820.298035029738
+Bruit,2026,3688.312813876147
+Bruit,2027,3556.327592722498
+Bruit,2028,3424.3423715689073
+Bruit,2029,3292.3571504152583
+Bruit,2030,3160.3719292616674
+Bruit,2031,3028.3867081080184
+Bruit,2032,2896.4014869544276
+Bruit,2033,2764.4162658007785
+Bruit,2034,2632.4310446471877
+Bruit,2035,2500.4458234935387
+Bruit,2036,2368.460602339948
+Bruit,2037,2236.475381186299
+Bruit,2038,2104.490160032708
+Bruit,2039,1972.504938879059
+Bruit,2040,1840.5197177254681
+Bruit,2041,1708.534496571819
+Bruit,2042,1576.5492754182283
+Bruit,2043,1444.5640542645792
+Bruit,2044,1312.5788331109884
+Bruit,2045,1180.5936119573394
+Bruit,2046,1048.6083908037485
+Bruit,2047,916.6231696500995
+Bruit,2048,784.6379484965087
+Bruit,2049,652.6527273429178
+Bruit,2050,520.6675061892688
+"Nature, biodiversité, paysages",2022,30281.322801050308
+"Nature, biodiversité, paysages",2023,30760.18488880938
+"Nature, biodiversité, paysages",2024,31239.046976568454
+"Nature, biodiversité, paysages",2025,31717.909064327643
+"Nature, biodiversité, paysages",2026,32196.771152086716
+"Nature, biodiversité, paysages",2027,32675.63323984579
+"Nature, biodiversité, paysages",2028,33154.49532760486
+"Nature, biodiversité, paysages",2029,33633.357415363935
+"Nature, biodiversité, paysages",2030,34112.21950312301
+"Nature, biodiversité, paysages",2031,34591.08159088208
+"Nature, biodiversité, paysages",2032,35069.94367864115
+"Nature, biodiversité, paysages",2033,35548.805766400226
+"Nature, biodiversité, paysages",2034,36027.6678541593
+"Nature, biodiversité, paysages",2035,36506.52994191837
+"Nature, biodiversité, paysages",2036,36985.392029677445
+"Nature, biodiversité, paysages",2037,37464.25411743652
+"Nature, biodiversité, paysages",2038,37943.11620519559
+"Nature, biodiversité, paysages",2039,38421.97829295466
+"Nature, biodiversité, paysages",2040,38900.84038071374
+"Nature, biodiversité, paysages",2041,39379.702468472926
+"Nature, biodiversité, paysages",2042,39858.564556232
+"Nature, biodiversité, paysages",2043,40337.42664399107
+"Nature, biodiversité, paysages",2044,40816.288731750145
+"Nature, biodiversité, paysages",2045,41295.15081950922
+"Nature, biodiversité, paysages",2046,41774.01290726829
+"Nature, biodiversité, paysages",2047,42252.87499502736
+"Nature, biodiversité, paysages",2048,42731.737082786436
+"Nature, biodiversité, paysages",2049,43210.59917054551
+"Nature, biodiversité, paysages",2050,43689.46125830458
+Gestion des ressources naturelles,2022,215913.2176341291
+Gestion des ressources naturelles,2023,214895.76093772775
+Gestion des ressources naturelles,2024,213878.3042413264
+Gestion des ressources naturelles,2025,212860.84754492505
+Gestion des ressources naturelles,2026,211843.3908485237
+Gestion des ressources naturelles,2027,210825.93415212235
+Gestion des ressources naturelles,2028,209808.477455721
+Gestion des ressources naturelles,2029,208791.02075931965
+Gestion des ressources naturelles,2030,207773.5640629183
+Gestion des ressources naturelles,2031,206756.10736651695
+Gestion des ressources naturelles,2032,205738.6506701156
+Gestion des ressources naturelles,2033,204721.19397371425
+Gestion des ressources naturelles,2034,203703.73727731267
+Gestion des ressources naturelles,2035,202686.28058091132
+Gestion des ressources naturelles,2036,201668.82388450997
+Gestion des ressources naturelles,2037,200651.36718810862
+Gestion des ressources naturelles,2038,199633.91049170727
+Gestion des ressources naturelles,2039,198616.45379530592
+Gestion des ressources naturelles,2040,197598.99709890457
+Gestion des ressources naturelles,2041,196581.54040250322
+Gestion des ressources naturelles,2042,195564.08370610187
+Gestion des ressources naturelles,2043,194546.62700970052
+Gestion des ressources naturelles,2044,193529.17031329917
+Gestion des ressources naturelles,2045,192511.71361689782
+Gestion des ressources naturelles,2046,191494.25692049647
+Gestion des ressources naturelles,2047,190476.80022409512
+Gestion des ressources naturelles,2048,189459.34352769377
+Gestion des ressources naturelles,2049,188441.88683129242
+Gestion des ressources naturelles,2050,187424.43013489107
+gestion_eau,2022,4332.1821530739835
+gestion_eau,2023,4337.739773483829
+gestion_eau,2024,4343.297393893674
+gestion_eau,2025,4348.855014303519
+gestion_eau,2026,4354.412634713364
+gestion_eau,2027,4359.970255123209
+gestion_eau,2028,4365.527875533055
+gestion_eau,2029,4371.0854959429
+gestion_eau,2030,4376.643116352747
+gestion_eau,2031,4382.200736762592
+gestion_eau,2032,4387.758357172437
+gestion_eau,2033,4393.315977582282
+gestion_eau,2034,4398.8735979921275
+gestion_eau,2035,4404.431218401973
+gestion_eau,2036,4409.988838811818
+gestion_eau,2037,4415.546459221665
+gestion_eau,2038,4421.10407963151
+gestion_eau,2039,4426.661700041355
+gestion_eau,2040,4432.2193204512005
+gestion_eau,2041,4437.776940861046
+gestion_eau,2042,4443.334561270891
+gestion_eau,2043,4448.892181680736
+gestion_eau,2044,4454.449802090581
+gestion_eau,2045,4460.007422500428
+gestion_eau,2046,4465.565042910273
+gestion_eau,2047,4471.122663320119
+gestion_eau,2048,4476.680283729964
+gestion_eau,2049,4482.237904139809
+gestion_eau,2050,4487.795524549654
+gestion_forêt,2022,10218.104288743942
+gestion_forêt,2023,10140.108670100237
+gestion_forêt,2024,10062.113051456532
+gestion_forêt,2025,9984.117432812798
+gestion_forêt,2026,9906.121814169093
+gestion_forêt,2027,9828.126195525389
+gestion_forêt,2028,9750.130576881684
+gestion_forêt,2029,9672.13495823795
+gestion_forêt,2030,9594.139339594245
+gestion_forêt,2031,9516.14372095054
+gestion_forêt,2032,9438.148102306806
+gestion_forêt,2033,9360.152483663102
+gestion_forêt,2034,9282.156865019397
+gestion_forêt,2035,9204.161246375692
+gestion_forêt,2036,9126.165627731958
+gestion_forêt,2037,9048.170009088253
+gestion_forêt,2038,8970.174390444548
+gestion_forêt,2039,8892.178771800844
+gestion_forêt,2040,8814.18315315711
+gestion_forêt,2041,8736.187534513405
+gestion_forêt,2042,8658.1919158697
+gestion_forêt,2043,8580.196297225966
+gestion_forêt,2044,8502.200678582261
+gestion_forêt,2045,8424.205059938557
+gestion_forêt,2046,8346.209441294852
+gestion_forêt,2047,8268.213822651118
+gestion_forêt,2048,8190.218204007413
+gestion_forêt,2049,8112.222585363708
+gestion_forêt,2050,8034.226966719974
+recup,2022,30485.780512079902
+recup,2023,30919.78934226204
+recup,2024,31353.79817244406
+recup,2025,31787.807002626083
+recup,2026,32221.815832808104
+recup,2027,32655.824662990126
+recup,2028,33089.833493172264
+recup,2029,33523.842323354285
+recup,2030,33957.85115353631
+recup,2031,34391.85998371833
+recup,2032,34825.868813900466
+recup,2033,35259.87764408249
+recup,2034,35693.88647426451
+recup,2035,36127.89530444653
+recup,2036,36561.90413462855
+recup,2037,36995.91296481069
+recup,2038,37429.92179499271
+recup,2039,37863.93062517473
+recup,2040,38297.939455356754
+recup,2041,38731.948285538776
+recup,2042,39165.957115720914
+recup,2043,39599.965945902935
+recup,2044,40033.97477608496
+recup,2045,40467.98360626698
+recup,2046,40901.992436449116
+recup,2047,41336.00126663114
+recup,2048,41770.01009681316
+recup,2049,42204.01892699518
+recup,2050,42638.0277571772
+EnR,2022,67386.9557781227
+EnR,2023,66347.99750091956
+EnR,2024,65309.03922371642
+EnR,2025,64270.08094651281
+EnR,2026,63231.12266930967
+EnR,2027,62192.164392106526
+EnR,2028,61153.20611490338
+EnR,2029,60114.24783770024
+EnR,2030,59075.2895604971
+EnR,2031,58036.331283293955
+EnR,2032,56997.37300609081
+EnR,2033,55958.41472888767
+EnR,2034,54919.45645168453
+EnR,2035,53880.498174481385
+EnR,2036,52841.53989727824
+EnR,2037,51802.5816200751
+EnR,2038,50763.62334287196
+EnR,2039,49724.665065668814
+EnR,2040,48685.70678846567
+EnR,2041,47646.74851126206
+EnR,2042,46607.79023405892
+EnR,2043,45568.83195685578
+EnR,2044,44529.873679652635
+EnR,2045,43490.91540244949
+EnR,2046,42451.95712524635
+EnR,2047,41412.99884804321
+EnR,2048,40374.040570840065
+EnR,2049,39335.08229363692
+EnR,2050,38296.12401643378
+Maîtrise énergie,2022,103490.40506996296
+Maîtrise énergie,2023,103150.34479357617
+Maîtrise énergie,2024,102810.28451718937
+Maîtrise énergie,2025,102470.22424080258
+Maîtrise énergie,2026,102130.16396441578
+Maîtrise énergie,2027,101790.10368802899
+Maîtrise énergie,2028,101450.0434116422
+Maîtrise énergie,2029,101109.9831352554
+Maîtrise énergie,2030,100769.92285886861
+Maîtrise énergie,2031,100429.86258248182
+Maîtrise énergie,2032,100089.80230609502
+Maîtrise énergie,2033,99749.74202970823
+Maîtrise énergie,2034,99409.68175332143
+Maîtrise énergie,2035,99069.62147693464
+Maîtrise énergie,2036,98729.56120054785
+Maîtrise énergie,2037,98389.50092416105
+Maîtrise énergie,2038,98049.44064777426
+Maîtrise énergie,2039,97709.38037138747
+Maîtrise énergie,2040,97369.32009500067
+Maîtrise énergie,2041,97029.25981861388
+Maîtrise énergie,2042,96689.19954222708
+Maîtrise énergie,2043,96349.13926584029
+Maîtrise énergie,2044,96009.0789894535
+Maîtrise énergie,2045,95669.0187130667
+Maîtrise énergie,2046,95328.95843667991
+Maîtrise énergie,2047,94988.89816029312
+Maîtrise énergie,2048,94648.83788390632
+Maîtrise énergie,2049,94308.77760751953
+Maîtrise énergie,2050,93968.71733113274
+Activités transversales,2022,74424.44843898833
+Activités transversales,2023,73172.81299275838
+Activités transversales,2024,71921.17754652796
+Activités transversales,2025,70669.54210029801
+Activités transversales,2026,69417.9066540676
+Activités transversales,2027,68166.27120783765
+Activités transversales,2028,66914.63576160723
+Activités transversales,2029,65663.00031537682
+Activités transversales,2030,64411.36486914687
+Activités transversales,2031,63159.729422916454
+Activités transversales,2032,61908.093976686505
+Activités transversales,2033,60656.45853045609
+Activités transversales,2034,59404.82308422614
+Activités transversales,2035,58153.187637995725
+Activités transversales,2036,56901.552191765775
+Activités transversales,2037,55649.91674553536
+Activités transversales,2038,54398.28129930541
+Activités transversales,2039,53146.645853074995
+Activités transversales,2040,51895.01040684458
+Activités transversales,2041,50643.37496061463
+Activités transversales,2042,49391.739514384215
+Activités transversales,2043,48140.104068154265
+Activités transversales,2044,46888.46862192385
+Activités transversales,2045,45636.8331756939
+Activités transversales,2046,44385.197729463485
+Activités transversales,2047,43133.562283233536
+Activités transversales,2048,41881.92683700312
+Activités transversales,2049,40630.291390772705
+Activités transversales,2050,39378.655944542756
+Ingénierie,2022,12296.862619715925
+Ingénierie,2023,12309.291921392407
+Ingénierie,2024,12321.721223068893
+Ingénierie,2025,12334.150524745379
+Ingénierie,2026,12346.579826421865
+Ingénierie,2027,12359.009128098347
+Ingénierie,2028,12371.438429774833
+Ingénierie,2029,12383.867731451319
+Ingénierie,2030,12396.297033127805
+Ingénierie,2031,12408.726334804287
+Ingénierie,2032,12421.155636480773
+Ingénierie,2033,12433.584938157259
+Ingénierie,2034,12446.014239833745
+Ingénierie,2035,12458.443541510227
+Ingénierie,2036,12470.872843186713
+Ingénierie,2037,12483.302144863199
+Ingénierie,2038,12495.731446539685
+Ingénierie,2039,12508.160748216167
+Ingénierie,2040,12520.590049892653
+Ingénierie,2041,12533.019351569139
+Ingénierie,2042,12545.448653245625
+Ingénierie,2043,12557.877954922107
+Ingénierie,2044,12570.307256598593
+Ingénierie,2045,12582.736558275079
+Ingénierie,2046,12595.165859951565
+Ingénierie,2047,12607.595161628047
+Ingénierie,2048,12620.024463304533
+Ingénierie,2049,12632.453764981019
+Ingénierie,2050,12644.883066657501
+R&D,2022,22102.387112178512
+R&D,2023,21692.667298564244
+R&D,2024,21282.947484949975
+R&D,2025,20873.227671335706
+R&D,2026,20463.507857721437
+R&D,2027,20053.78804410717
+R&D,2028,19644.0682304929
+R&D,2029,19234.34841687863
+R&D,2030,18824.628603264362
+R&D,2031,18414.908789650093
+R&D,2032,18005.188976035824
+R&D,2033,17595.469162421556
+R&D,2034,17185.749348807287
+R&D,2035,16776.029535193018
+R&D,2036,16366.30972157875
+R&D,2037,15956.58990796448
+R&D,2038,15546.870094350212
+R&D,2039,15137.150280735827
+R&D,2040,14727.430467121558
+R&D,2041,14317.710653507289
+R&D,2042,13907.99083989302
+R&D,2043,13498.271026278751
+R&D,2044,13088.551212664483
+R&D,2045,12678.831399050214
+R&D,2046,12269.111585435945
+R&D,2047,11859.391771821676
+R&D,2048,11449.671958207407
+R&D,2049,11039.952144593139
+R&D,2050,10630.23233097887
+Serv gaux,2022,40024.63168581754
+Serv gaux,2023,39170.22067249745
+Serv gaux,2024,38315.809659177365
+Serv gaux,2025,37461.398645857276
+Serv gaux,2026,36606.98763253719
+Serv gaux,2027,35752.5766192171
+Serv gaux,2028,34898.165605897244
+Serv gaux,2029,34043.754592577156
+Serv gaux,2030,33189.34357925707
+Serv gaux,2031,32334.93256593698
+Serv gaux,2032,31480.52155261689
+Serv gaux,2033,30626.110539296802
+Serv gaux,2034,29771.699525976714
+Serv gaux,2035,28917.288512656625
+Serv gaux,2036,28062.877499336537
+Serv gaux,2037,27208.46648601645
+Serv gaux,2038,26354.05547269636
+Serv gaux,2039,25499.64445937627
+Serv gaux,2040,24645.233446056183
+Serv gaux,2041,23790.822432736095
+Serv gaux,2042,22936.41141941624
+Serv gaux,2043,22082.00040609615
+Serv gaux,2044,21227.589392776063
+Serv gaux,2045,20373.178379455974
+Serv gaux,2046,19518.767366135886
+Serv gaux,2047,18664.356352815797
+Serv gaux,2048,17809.94533949571
+Serv gaux,2049,16955.53432617562
+Serv gaux,2050,16101.123312855532
+Activités périphériques,2022,437407.49346608634
+Activités périphériques,2023,442355.1306901366
+Activités périphériques,2024,447302.7679141887
+Activités périphériques,2025,452250.4051382389
+Activités périphériques,2026,457198.04236228915
+Activités périphériques,2027,462145.67958634126
+Activités périphériques,2028,467093.3168103915
+Activités périphériques,2029,472040.95403444173
+Activités périphériques,2030,476988.59125849383
+Activités périphériques,2031,481936.2284825441
+Activités périphériques,2032,486883.8657065943
+Activités périphériques,2033,491831.50293064455
+Activités périphériques,2034,496779.14015469665
+Activités périphériques,2035,501726.7773787469
+Activités périphériques,2036,506674.41460279713
+Activités périphériques,2037,511622.05182684923
+Activités périphériques,2038,516569.68905089947
+Activités périphériques,2039,521517.3262749497
+Activités périphériques,2040,526464.9634990018
+Activités périphériques,2041,531412.600723052
+Activités périphériques,2042,536360.2379471023
+Activités périphériques,2043,541307.8751711525
+Activités périphériques,2044,546255.5123952046
+Activités périphériques,2045,551203.1496192549
+Activités périphériques,2046,556150.7868433051
+Activités périphériques,2047,561098.4240673572
+Activités périphériques,2048,566046.0612914074
+Activités périphériques,2049,570993.6985154577
+Activités périphériques,2050,575941.3357395098
+Gestion des espaces verts,2022,34276.3020547462
+Gestion des espaces verts,2023,35133.03756680748
+Gestion des espaces verts,2024,35989.773078868755
+Gestion des espaces verts,2025,36846.50859093003
+Gestion des espaces verts,2026,37703.24410299131
+Gestion des espaces verts,2027,38559.97961505259
+Gestion des espaces verts,2028,39416.715127113865
+Gestion des espaces verts,2029,40273.45063917514
+Gestion des espaces verts,2030,41130.18615123642
+Gestion des espaces verts,2031,41986.9216632977
+Gestion des espaces verts,2032,42843.657175358974
+Gestion des espaces verts,2033,43700.39268742025
+Gestion des espaces verts,2034,44557.12819948153
+Gestion des espaces verts,2035,45413.86371154281
+Gestion des espaces verts,2036,46270.599223604084
+Gestion des espaces verts,2037,47127.33473566536
+Gestion des espaces verts,2038,47984.07024772664
+Gestion des espaces verts,2039,48840.805759787916
+Gestion des espaces verts,2040,49697.54127184919
+Gestion des espaces verts,2041,50554.27678391047
+Gestion des espaces verts,2042,51411.01229597175
+Gestion des espaces verts,2043,52267.747808033026
+Gestion des espaces verts,2044,53124.4833200943
+Gestion des espaces verts,2045,53981.21883215558
+Gestion des espaces verts,2046,54837.95434421686
+Gestion des espaces verts,2047,55694.689856278135
+Gestion des espaces verts,2048,56551.42536833941
+Gestion des espaces verts,2049,57408.16088040069
+Gestion des espaces verts,2050,58264.89639246197
+Transports longue distance,2022,297329.6933517611
+Transports longue distance,2023,300232.07151294744
+Transports longue distance,2024,303134.4496741338
+Transports longue distance,2025,306036.8278353211
+Transports longue distance,2026,308939.20599650743
+Transports longue distance,2027,311841.5841576938
+Transports longue distance,2028,314743.96231888107
+Transports longue distance,2029,317646.3404800674
+Transports longue distance,2030,320548.71864125377
+Transports longue distance,2031,323451.09680244105
+Transports longue distance,2032,326353.4749636274
+Transports longue distance,2033,329255.85312481376
+Transports longue distance,2034,332158.23128600104
+Transports longue distance,2035,335060.6094471874
+Transports longue distance,2036,337962.98760837375
+Transports longue distance,2037,340865.36576956103
+Transports longue distance,2038,343767.7439307474
+Transports longue distance,2039,346670.12209193374
+Transports longue distance,2040,349572.5002531201
+Transports longue distance,2041,352474.8784143074
+Transports longue distance,2042,355377.2565754937
+Transports longue distance,2043,358279.6347366801
+Transports longue distance,2044,361182.01289786736
+Transports longue distance,2045,364084.3910590537
+Transports longue distance,2046,366986.76922024006
+Transports longue distance,2047,369889.14738142735
+Transports longue distance,2048,372791.5255426137
+Transports longue distance,2049,375693.90370380005
+Transports longue distance,2050,378596.28186498734
+Transports urbains et suburbains,2022,105800.8498041009
+Transports urbains et suburbains,2023,106989.30596845722
+Transports urbains et suburbains,2024,108177.76213281354
+Transports urbains et suburbains,2025,109366.21829716986
+Transports urbains et suburbains,2026,110554.67446152619
+Transports urbains et suburbains,2027,111743.13062588204
+Transports urbains et suburbains,2028,112931.58679023836
+Transports urbains et suburbains,2029,114120.04295459468
+Transports urbains et suburbains,2030,115308.499118951
+Transports urbains et suburbains,2031,116496.95528330732
+Transports urbains et suburbains,2032,117685.41144766365
+Transports urbains et suburbains,2033,118873.86761201997
+Transports urbains et suburbains,2034,120062.32377637629
+Transports urbains et suburbains,2035,121250.77994073261
+Transports urbains et suburbains,2036,122439.23610508846
+Transports urbains et suburbains,2037,123627.69226944479
+Transports urbains et suburbains,2038,124816.1484338011
+Transports urbains et suburbains,2039,126004.60459815743
+Transports urbains et suburbains,2040,127193.06076251375
+Transports urbains et suburbains,2041,128381.51692687007
+Transports urbains et suburbains,2042,129569.97309122639
+Transports urbains et suburbains,2043,130758.42925558271
+Transports urbains et suburbains,2044,131946.88541993857
+Transports urbains et suburbains,2045,133135.3415842949
+Transports urbains et suburbains,2046,134323.7977486512
+Transports urbains et suburbains,2047,135512.25391300753
+Transports urbains et suburbains,2048,136700.71007736385
+Transports urbains et suburbains,2049,137889.16624172017
+Transports urbains et suburbains,2050,139077.6224060765
+"Agriculture, sylviculture et pêch",2022,1.5994344738280875
+"Agriculture, sylviculture et pêch",2023,1.596787641767068
+"Agriculture, sylviculture et pêch",2024,1.5941408097060474
+"Agriculture, sylviculture et pêch",2025,1.5914939776450279
+"Agriculture, sylviculture et pêch",2026,1.5888471455840083
+"Agriculture, sylviculture et pêch",2027,1.5862003135229878
+"Agriculture, sylviculture et pêch",2028,1.5835534814619683
+"Agriculture, sylviculture et pêch",2029,1.5809066494009487
+"Agriculture, sylviculture et pêch",2030,1.5782598173399283
+"Agriculture, sylviculture et pêch",2031,1.5756129852789087
+"Agriculture, sylviculture et pêch",2032,1.5729661532178891
+"Agriculture, sylviculture et pêch",2033,1.5703193211568696
+"Agriculture, sylviculture et pêch",2034,1.567672489095849
+"Agriculture, sylviculture et pêch",2035,1.5650256570348295
+"Agriculture, sylviculture et pêch",2036,1.56237882497381
+"Agriculture, sylviculture et pêch",2037,1.5597319929127895
+"Agriculture, sylviculture et pêch",2038,1.55708516085177
+"Agriculture, sylviculture et pêch",2039,1.5544383287907504
+"Agriculture, sylviculture et pêch",2040,1.55179149672973
+"Agriculture, sylviculture et pêch",2041,1.5491446646687104
+"Agriculture, sylviculture et pêch",2042,1.5464978326076908
+"Agriculture, sylviculture et pêch",2043,1.5438510005466712
+"Agriculture, sylviculture et pêch",2044,1.5412041684856508
+"Agriculture, sylviculture et pêch",2045,1.5385573364246312
+"Agriculture, sylviculture et pêch",2046,1.5359105043636117
+"Agriculture, sylviculture et pêch",2047,1.5332636723025912
+"Agriculture, sylviculture et pêch",2048,1.5306168402415716
+"Agriculture, sylviculture et pêch",2049,1.527970008180552
+"Agriculture, sylviculture et pêch",2050,1.5253231761195316
+Industrie (sauf construction),2022,19.333571428572117
+Industrie (sauf construction),2023,19.333571428572117
+Industrie (sauf construction),2024,19.333571428572114
+Industrie (sauf construction),2025,19.333571428572114
+Industrie (sauf construction),2026,19.333571428572114
+Industrie (sauf construction),2027,19.333571428572114
+Industrie (sauf construction),2028,19.333571428572114
+Industrie (sauf construction),2029,19.333571428572114
+Industrie (sauf construction),2030,19.333571428572114
+Industrie (sauf construction),2031,19.333571428572114
+Industrie (sauf construction),2032,19.333571428572114
+Industrie (sauf construction),2033,19.333571428572114
+Industrie (sauf construction),2034,19.333571428572114
+Industrie (sauf construction),2035,19.333571428572114
+Industrie (sauf construction),2036,19.333571428572114
+Industrie (sauf construction),2037,19.333571428572114
+Industrie (sauf construction),2038,19.333571428572114
+Industrie (sauf construction),2039,19.333571428572114
+Industrie (sauf construction),2040,19.333571428572114
+Industrie (sauf construction),2041,19.33357142857211
+Industrie (sauf construction),2042,19.33357142857211
+Industrie (sauf construction),2043,19.33357142857211
+Industrie (sauf construction),2044,19.33357142857211
+Industrie (sauf construction),2045,19.33357142857211
+Industrie (sauf construction),2046,19.33357142857211
+Industrie (sauf construction),2047,19.33357142857211
+Industrie (sauf construction),2048,19.33357142857211
+Industrie (sauf construction),2049,19.33357142857211
+Industrie (sauf construction),2050,19.33357142857211
+Services,2022,79.06561761066726
+Services,2023,79.06817614923204
+Services,2024,79.07073468779683
+Services,2025,79.07329322636161
+Services,2026,79.07585176492643
+Services,2027,79.07841030349121
+Services,2028,79.080968842056
+Services,2029,79.08352738062078
+Services,2030,79.08608591918556
+Services,2031,79.08864445775035
+Services,2032,79.09120299631513
+Services,2033,79.09376153487992
+Services,2034,79.0963200734447
+Services,2035,79.09887861200949
+Services,2036,79.10143715057427
+Services,2037,79.10399568913905
+Services,2038,79.10655422770384
+Services,2039,79.10911276626865
+Services,2040,79.11167130483344
+Services,2041,79.11422984339822
+Services,2042,79.116788381963
+Services,2043,79.11934692052779
+Services,2044,79.12190545909257
+Services,2045,79.12446399765736
+Services,2046,79.12702253622214
+Services,2047,79.12958107478693
+Services,2048,79.13213961335171
+Services,2049,79.1346981519165
+Services,2050,79.13725669048128
