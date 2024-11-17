@@ -129,6 +129,26 @@ final_projections_df = pd.DataFrame(final_projections)
 # Sauvegarder les prédictions dans un fichier CSV
 final_projections_df.to_csv("data_output/projections_emplois_2050.csv", index=False)
 
+# Extract individual metrics for each domain
+r2_values = [item["R2"] for item in model_metrics]
+adjusted_r2_values = [item["R2 ajusté"] for item in model_metrics]
+p_values = [item["P-valeur (F-stat)"] for item in model_metrics]
+
+# Calculate combined metrics
+combined_r2 = sum(r2_values) / len(r2_values)
+combined_adjusted_r2 = sum(adjusted_r2_values) / len(adjusted_r2_values)
+combined_p_value = sum(p_values) / len(p_values)
+augmentation_values = [item["Augmentation"] for item in augmentation_data]
+total_evolution_emploi = sum(augmentation_values)
+
+# Print combined metrics
+print("\n--- Valeur totale de l'évolution de l'emploi pour tous les domaines ---")
+print(f"Total de l'évolution de l'emploi: {total_evolution_emploi}")
+print("\n--- Métriques combinées pour tous les domaines ---")
+print(f"R2 combiné: {combined_r2}")
+print(f"R2 ajusté combiné: {combined_adjusted_r2}")
+print(f"P-valeur combinée (F-stat): {combined_p_value}")
+
 # Identifier les 5 domaines avec la plus grande augmentation
 augmentation_df = pd.DataFrame(augmentation_data)
 top_5 = augmentation_df.nlargest(5, "Augmentation")
