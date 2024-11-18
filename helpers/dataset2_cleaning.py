@@ -2,7 +2,7 @@ import pandas as pd
 
 
 def clean_dataset():
-    with open('data_initial\dataset2_emplois.csv',encoding='UTF-8') as f:
+    with open(r'data_initial\dataset2_emplois.csv',encoding='UTF-8') as f:
         dataset2 = pd.read_csv(f)
 
     def remove_space(dataframe):
@@ -11,9 +11,13 @@ def clean_dataset():
         return dataframe
 
     df_final = remove_space(dataset2)
-
     # Calculate the sum of each column from the 2nd column to the end
     sum_column = df_final.columns[2::]
+    for column in sum_column:
+        print(f"Sum of {column}: {df_final[column].sum()}")
+    print(df_final[sum_column].applymap(lambda x: isinstance(x, str)))
+    df_final[sum_column] = df_final[sum_column].apply(pd.to_numeric, errors='coerce').fillna(0)
+
     total_row = df_final[sum_column].sum().to_frame().T
 
     # Add 'Total' and 'Tout' to the first two columns of the total row
@@ -27,11 +31,11 @@ def clean_dataset():
 
     # Remove 'Total Général rows' and values in % rows
     df_final.drop(df_final[(df_final['Domaine'] == 'Total général') | (df_final['Domaine'] == 'Évolution annuelle en %')].index, inplace=True)
-
+    print(df_final)
     # Save the dataset to a csv file to make tests
-    with open('data_output\data_emplois_cleaned.csv', 'w', newline='', encoding='UTF-8') as f:
+    with open(r'data_output\data_emplois_cleaned.csv', 'w', newline='', encoding='UTF-8') as f:
         df_final.to_csv(f, index=False)
-    
+    print('Dataset cleaned and saved to data_output/data_emplois_cleaned.csv')
     return df_final
 
 clean_dataset()
